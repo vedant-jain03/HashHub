@@ -1,0 +1,49 @@
+#About{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+#About img{
+    position: absolute;
+    width: 25rem;
+}
+#About .g23{
+    left: 0rem;
+    width: 22rem;
+}
+#About .g2{
+    left: 60rem;
+    top: 10rem;
+}
+#About .content{
+    position: absolute;
+    color: white;
+    margin: 2rem 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+}
+#About .content h2{
+    font-size: 65px;
+    margin-bottom: 2rem;
+}
+
+#About .content p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+.primary{
+background-color: white;
+font-size: 25px;
+text-transform: uppercase;
+text-decoration: none;
+color: black;
+font-weight: bold;
+padding: 1rem 5rem;
+margin-top: 4rem;
+}

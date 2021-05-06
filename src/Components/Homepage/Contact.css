@@ -1,0 +1,78 @@
+#contact{
+    height: 100vh;
+    width: 100vw;
+    background: #0074A8;
+    color: white;
+}
+#contact .head{
+    top: 5rem;
+    font-size: 65px;
+}
+#contact .para{
+    top: 7rem;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline:none;
+    color: #ddd;
+    transition: 0.5s;
+    color: white;
+    font-size: 12px;
+}
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+    transform: scale(1.02);
+    border: 2px solid white;
+}
+.contact-form .formbtn{
+    padding: 1rem 15.8rem;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    transition: .5s ease;
+}
+.contact-form .formbtn:hover{
+    color: white;
+    background: black;
+}
+.footer{
+    background: #0074A8;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-top: 6rem;
+}
+.footer img{
+    width: 25rem;
+    height: 18rem;
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer > div h3{
+    text-align: center;
+    color: rgb(59 59 59);
+}
+.footer > div h1{
+    font-size: 4rem;
+}

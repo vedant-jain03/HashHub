@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/HashHub/static/css/main.01e7ee0b.chunk.css",
+    "main.js": "/HashHub/static/js/main.7cc5f220.chunk.js",
+    "main.js.map": "/HashHub/static/js/main.7cc5f220.chunk.js.map",
+    "runtime-main.js": "/HashHub/static/js/runtime-main.210b2082.js",
+    "runtime-main.js.map": "/HashHub/static/js/runtime-main.210b2082.js.map",
+    "static/css/2.ae9e5f60.chunk.css": "/HashHub/static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.75192b89.chunk.js": "/HashHub/static/js/2.75192b89.chunk.js",
+    "static/js/2.75192b89.chunk.js.map": "/HashHub/static/js/2.75192b89.chunk.js.map",
+    "index.html": "/HashHub/index.html",
+    "static/css/2.ae9e5f60.chunk.css.map": "/HashHub/static/css/2.ae9e5f60.chunk.css.map",
+    "static/css/main.01e7ee0b.chunk.css.map": "/HashHub/static/css/main.01e7ee0b.chunk.css.map",
+    "static/js/2.75192b89.chunk.js.LICENSE.txt": "/HashHub/static/js/2.75192b89.chunk.js.LICENSE.txt",
+    "static/media/bird1.c7e41938.png": "/HashHub/static/media/bird1.c7e41938.png",
+    "static/media/bird2.09d09c7f.png": "/HashHub/static/media/bird2.09d09c7f.png",
+    "static/media/footer.86817d2d.jpg": "/HashHub/static/media/footer.86817d2d.jpg",
+    "static/media/forest.238eb9eb.png": "/HashHub/static/media/forest.238eb9eb.png",
+    "static/media/rocks.0535a43a.png": "/HashHub/static/media/rocks.0535a43a.png",
+    "static/media/water.706f9c68.png": "/HashHub/static/media/water.706f9c68.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.210b2082.js",
+    "static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.75192b89.chunk.js",
+    "static/css/main.01e7ee0b.chunk.css",
+    "static/js/main.7cc5f220.chunk.js"
+  ]
+}

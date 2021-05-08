@@ -8,7 +8,7 @@ const Contact =()=>{
         <div id="contact">
             <div className="content">
                 <h1 className="head"><center>Contact Us</center></h1>
-                <p className="para"><center>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, tempore?</center></p>
+                <p className="para"><center>HashHub is with and for you all, contact us whenever you want.</center></p>
             </div>
             <form action="" className="contact-form">
                 <input type="text" className="contact-form-text" placeholder="Your Name" />

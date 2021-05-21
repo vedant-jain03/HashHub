@@ -8,8 +8,12 @@ import water from "../Homepage/Images/water.png";
 import Aboutus from "../Homepage/Aboutus"
 import TeamSection from "../Homepage/TeamSection"
 import Field from "../Homepage/Field"
-import Footer from "../Homepage/Footer"
 import Contact from "../Homepage/Contact"
+import Explore from "../Explore/Explore"
+import { Link } from "react-router-dom";
+import "../Explore/Explore.css"
+
+
 const Homepage = () => {
     const [offset,setOffset]=useState()
     const handleScroll=()=>setOffset(window.pageYOffset)
@@ -31,10 +35,7 @@ const Homepage = () => {
                 <img src={bird1} style={{top:offset* -1.5 + 'px',left:offset*2+'px'}} id="bird1" alt=""/>
                 <img src={bird2} style={{top:offset* -1.5 + 'px',left:offset*-2+'px'}}id="bird2" alt=""/>
                 <img src={forest} style={{top:offset*0.25+'px'}} id="forest" alt=""/>
-
-                <a href="#" id="btn" style={{marginTop:offset*1.5+'px'}} onClick={()=>{
-                    alert('Work In Progress!');
-                }}>Explore</a>
+                <Link to="/Explore" id="btn" style={{marginTop:offset*1.5+'px'}}>Explore</Link>
                 <img src={rocks} id="rocks" style={{top:offset* - 0.12 + 'px'}} alt=""/>
                 <img src={water} id="water" alt=""/>
             </div>
@@ -45,7 +46,6 @@ const Homepage = () => {
             <TeamSection/>
             
             <Contact />
-            {/* <Footer /> */}
         </div>
     )
 }

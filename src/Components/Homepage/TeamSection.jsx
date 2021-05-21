@@ -5,12 +5,10 @@ import group24 from "../Homepage/Images/Group 2.4.png"
 import GitHubIcon from '@material-ui/icons/GitHub';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
-
 const TeamSection = () => {
     const [contributors, setContributors] = useState([]);
     useEffect(() => {
-        fetch("https://api.github.com/repos/vedant-jain03/Hash-Hub/contributors?per_page=1000")
+        fetch("https://api.github.com/repos/vedant-jain03/HashHub/contributors?per_page=1000")
             .then(res => res.json())
             .then(data => {
                 console.log(data);

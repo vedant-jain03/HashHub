@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#explore .welcome-section{
+    position: relative;
+    /* max-height: 100vh; */
+    /* height: 100vh; */
+    height: 100vh;
+    overflow: hidden;
+}
+#explore #bgimage{
+    top: -11px;
+    margin-top: -5rem;
+    width: 100%;
+    height: 113vh;
+}
+#explore .welcome-section .content{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    color: white;
+    font-size: 2rem;
+    top: 29%;
+    left: 6%;
+}
+.welcome-section .content h2{
+    ont-size: 2rem;
+    opacity: 1;
+}
+.welcome-section .content h1{
+    font-size: 4.5rem;
+}
+.welcome-section .content h1 span{
+    color: #3f51b5;
+}
+.welcome-section .stars{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.1), 0 0 0 8px rgba(255,255,255,0.1), 0 0 20px rgba(255,255,255,1);
+    animation: animatestars 3s linear infinite;
+}
+.welcome-section .stars::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 1px;
+    background: linear-gradient(90deg,#fff,transparent);
+}
+@keyframes animatestars{
+    0%{
+        transform: rotate(315deg) translateX(0);
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(315deg) translateX(-1000px);
+        opacity: 0;
+    }
+}
+.stars:nth-child(1){
+    top: 0;
+    right:0;
+    left: initial;
+    animation-delay: 0;
+    animation-duration: 1s;
+}
+.stars:nth-child(2){
+    top: 0;
+    right: 80px;
+    left: initial;
+    animation-delay: -0.2s;
+    animation-duration: 3s;
+}
+.stars:nth-child(3){
+    top: 80;
+    right: 0px;
+    left: initial;
+    animation-delay: 0.4s;
+    animation-duration: 2s;
+}
+.stars:nth-child(4){
+    top: 0;
+    right: 180px;
+    left: initial;
+    animation-delay: 0.6s;
+    animation-duration: 1.5s;
+}
+.stars:nth-child(5){
+    top: 0;
+    right: 400px;
+    left: initial;
+    animation-delay: 0.8s;
+    animation-duration: 2.5s;
+}
+.stars:nth-child(6){
+    top: 0;
+    right: 600px;
+    left: initial;
+    animation-delay: 1s;
+    animation-duration: 3s;
+}
+.stars:nth-child(7){
+    top: 300px;
+    right: 0px;
+    left: initial;
+    animation-delay: 1.2s;
+    animation-duration: 1.75s;
+}
+.stars:nth-child(8){
+    top: 0;
+    right: 700px;
+    left: initial;
+    animation-delay: 1.4s;
+    animation-duration: 1.25s;
+}
+.welcome-section .content p{
+    font-size: 20px;
+    margin-left: 4px;
+    margin-top: 4px;
+    color: grey;
+}
+.field-section{
+    height: 100vh;
+    background: linear-gradient(
+180deg
+, black, #00134e);
+padding: 4rem;
+}
+.field-section .content{
+    margin-left: 3rem;
+}
+.field-section .content h1{
+    color: white;
+    font-size: 4rem;
+}
+.field-section .content p{
+    color: grey;
+    font-weight: 500;
+}
+:root{
+    --clr-neautral-900: hsl(207,19%,9%);
+    --clr-neautral-100: hsl(0,0%,100%);
+    --clr-accent-400: hsl(142,90% ,61%);
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+
+#explore .card-content{
+    padding: 1.5em;
+    background: linear-gradient( hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.3) 20% ,hsl(0 0% 0% / 1) ) ;
+    height: 100%;
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+    transition-delay: 500ms;
+}
+
+#explore .card-content > *:not(.card-title)
+{
+    opacity: 0;
+    transition: transform 500ms ease;
+    
+}
+#explore .card:hover .card-content > *:not(card-title)
+{
+    opacity: 1;
+    transition-delay: 1000ms;
+}
+#explore .card-title{
+    position: relative;
+    width: max-content;
+}
+#explore .card-title::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 118%;
+    left: -1.5rem;
+    bottom: -7px;
+    height: 3px;
+    background: var(--clr-accent-400);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 500ms ease;
+    /* transition: left; */
+}
+#explore .card:hover .card-title::after{
+    transform: scaleX(1);
+}
+#explore .button{
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    color: var(--clr-neautral-900);
+    background: var(--clr-accent-400);
+    padding: 0.5em 1.25em;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+#explore .button:hover,.button:focus{
+    background: var(--clr-neautral-100);   
+}
+#explore .card-content h2{
+    margin-bottom: 1rem;
+    max-width: 21ch;
+}
+#explore .card-content p{
+    margin-bottom: 1.2rem;
+}
+#explore .card:hover{
+    transform: scale(1.05);
+}
+#explore .card:hover .card-content{
+    transform: translateY(0%);
+}
+#explore .slider-button{
+    font-size: 2rem;
+    /* border-radius: 50%; */
+    padding: 0px 10px;
+    border: none;
+    background: #282c34;
+    color: white;
+}
+#explore .tool-section{
+    background: #00134e;
+}
+
+#contact{
+    height: 100vh;
+    width: 100vw;
+    background: #0074A8;
+    color: white;
+}
+#contact .head{
+    top: 5rem;
+    font-size: 65px;
+}
+#contact .para{
+    top: 7rem;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline:none;
+    color: #ddd;
+    transition: 0.5s;
+    color: white;
+    font-size: 12px;
+}
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+    transform: scale(1.02);
+    border: 2px solid white;
+}
+.contact-form .formbtn{
+    padding: 1rem 15.8rem;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    transition: .5s ease;
+}
+.contact-form .formbtn:hover{
+    color: white;
+    background: black;
+}
+.footer{
+    background: #0074A8;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-top: 6rem;
+}
+.footer img{
+    width: 25rem;
+    height: 18rem;
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer > div h3{
+    text-align: center;
+    color: rgb(59 59 59);
+}
+.footer > div h1{
+    font-size: 4rem;
+}
+#explore-footer{
+    background: #00134e;
+}
+.sc-bxivhb {
+    width: 392.6666666666667;
+}
+#explore .card{
+    color: var(--clr-neautral-100);
+    /* font-family: sans-serif; */
+    background-image: url('https://image.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg');
+    background-size: cover;
+    padding: 4rem 0 0;
+    width: 35ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 320px;
+    transition: transform 500ms ease;
+    margin-right: 3rem;
+}
+.field-container .card{
+    margin: 3rem;
+}

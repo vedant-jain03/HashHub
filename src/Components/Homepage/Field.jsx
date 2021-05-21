@@ -14,7 +14,7 @@ const Field = () => {
     return (
         <div id="field">
             <center><h1 className="head" data-aos="zoom-in-down">Our Fields</h1></center>
-            <center><p className="para" data-aos="fade-down">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, non?</p></center>
+            <center><p className="para" data-aos="fade-down">We cover each and everything which might resist you from achieving your skills. Your solutions under one roof that only we offer.</p></center>
             {/* <div className="slider"> */}
             <div style={{ padding: `0 ${chevronWidth}px` ,background: 'hsl(0deg 0% 0% / 30%)',    marginTop: '1rem',boxShadow: 'inset 10px 5px 51px 27px #0000005c'}}>
                 
@@ -33,7 +33,7 @@ const Field = () => {
                         <div className="card-content">
 
                             <h2 className="card-title">Open-Source</h2>
-                            <p className="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla ipsam ex! Tempora totam, non quos tempore facere ullam neque.</p>
+                            <p className="card-body">Open-source code is extremely well-adapted to service-oriented architecture. Want to explore more then have a look and deep dive into this endless ocean.</p>
                             <a href="#" className="button" onClick={() => {
                                 alert('Work In Progress!');
                             }}>Learn More</a>
@@ -43,7 +43,8 @@ const Field = () => {
                         <div className="card-content">
 
                             <h2 className="card-title">Web Development</h2>
-                            <p className="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla ipsam ex! Tempora totam, non quos tempore facere ullam neque.</p>
+                            <p className="card-body">Code is read more than it is written, who other would know it better than a web developer. Explore more, The best WebD
+                            eveloper.</p>
                             <a href="#" className="button" onClick={() => {
                                 alert('Work In Progress!');
                             }}>Learn More</a>

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HashHub/static/css/main.b4ad8889.chunk.css",
-    "main.js": "/HashHub/static/js/main.89826fd2.chunk.js",
-    "main.js.map": "/HashHub/static/js/main.89826fd2.chunk.js.map",
+    "main.js": "/HashHub/static/js/main.e5bd071c.chunk.js",
+    "main.js.map": "/HashHub/static/js/main.e5bd071c.chunk.js.map",
     "runtime-main.js": "/HashHub/static/js/runtime-main.210b2082.js",
     "runtime-main.js.map": "/HashHub/static/js/runtime-main.210b2082.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/HashHub/static/css/2.ae9e5f60.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.52eb7e5f.chunk.js",
     "static/css/main.b4ad8889.chunk.css",
-    "static/js/main.89826fd2.chunk.js"
+    "static/js/main.e5bd071c.chunk.js"
   ]
 }

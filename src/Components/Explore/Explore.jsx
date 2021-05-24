@@ -6,6 +6,7 @@ import group27 from "../Homepage/Images/Group 2.7.png"
 import group26 from "../Homepage/Images/Group 2.6.png"
 import "./Explore.css"
 import { Link } from "react-router-dom";
+import Opensource from "../Fields/Open-source/Opensource"
 
 const Explore = () => {
 
@@ -56,9 +57,7 @@ const Explore = () => {
 
                             <h2 className="card-title">Open-Source</h2>
                             <p className="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla ipsam ex! Tempora totam, non quos tempore facere ullam neque.</p>
-                            <a href="#" className="button" onClick={() => {
-                                alert('Work In Progress!');
-                            }}>Learn More</a>
+                            <Link to="/Opensource" className="button">Learn More</Link>
                         </div>
                     </div>
                     <div className="card">

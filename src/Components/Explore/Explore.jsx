@@ -148,7 +148,13 @@ const Explore = () => {
                                 <a href="https://vedant-jain03.github.io/Github-Profile-Readme-Generator/" className="button">Use Tool</a>
                             </div>
                         </div>
-
+                        <div className="card">
+                            <div className="card-content">
+                                <h2 className="card-title">Certificate Generator</h2>
+                                <p className="card-body">This is Certificate Generator which you can use to make e-certificate and download as a pdf and then you can distribute the certificates to the students.</p>
+                                <a href="https://vedant-jain03.github.io/certificate-generator/" className="button">Use Tool</a>
+                            </div>
+                        </div>
                     </ItemsCarousel>
                 </div>
             </div>

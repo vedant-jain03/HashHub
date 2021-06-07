@@ -4,6 +4,7 @@ import {HashRouter as Router,Route,Link,Switch} from 'react-router-dom';
 import Explore from "./Components/Explore/Explore"
 import Opensource from "./Components/Fields/Open-source/Opensource"
 import WebDev from "./Components/Fields/web-dev/WebDev"
+import Ai from "./Components/Fields/AI/Ai"
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <Route exact path='/Explore' component={Explore} />
         <Route exact path='/Opensource' component={Opensource} />
         <Route exact path='/WebDev' component={WebDev} />
+        <Route exact path='/ai' component={Ai} />
       </Switch>
     </Router>
     </>

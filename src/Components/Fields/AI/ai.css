@@ -21,21 +21,20 @@
     margin-left: 4rem; 
 } 
 #container #left h2{
-    font-size: 5rem;
+    font-size: 4rem;
     color: white;
     margin-top: 3rem;
 
 }
 #container #left p{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     color: white;
     width:80%;
     margin-top: 1rem;
 }
 #container #right img{
-    width: 650px;
-    height: 425px;
+    width: 35rem;
     margin-right: 2rem;
 }
 #container2{

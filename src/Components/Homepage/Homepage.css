@@ -21,7 +21,7 @@ html{
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     z-index: 1000;
 }

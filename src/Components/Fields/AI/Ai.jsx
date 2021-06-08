@@ -45,7 +45,7 @@ const Ai = () => {
             <div id="ai">
                 <div id="container">
                     <div id="left">
-                        <h1><center><Link to="/" style={{ textDecoration: 'none', position: 'absolute', top: '26%', left: '4rem', color: '#ff9800' }}>Hash/Hub</Link></center></h1>
+                        <h1><center><Link to="/" style={{ textDecoration: 'none', position: 'absolute', top: '25%', left: '4rem', color: '#ff9800' }}>Hash/Hub</Link></center></h1>
 
                         <h2>Artificial Intelligence</h2>
                         <p>Intelligence, as we know, is the ability to acquire and apply the knowledge. Knowledge is the information acquired through experience. Experience is the knowledge gained through exposure(training). Summing the terms up, we get artificial intelligence as the “copy of something natural(i.e., human beings) ‘WHO’ is capable of acquiring and applying the information it has gained through exposure.”</p>

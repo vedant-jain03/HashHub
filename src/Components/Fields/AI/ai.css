@@ -131,11 +131,11 @@
     margin: 3%;
     transition: all 0.4s cubic-bezier(0.175,0.885,0,1);
     background-color: #fff;
-    width:21.25%;
+    width:33.25%;
     border-radius: 12px;
     box-shadow: 0px 13px 10px -7px rgba(0,0,0,0.1);
     float:left;
-  margin-left: 7.5rem;
+  margin-left: 8.5rem;
   
   }
   #card:hover{
@@ -216,14 +216,14 @@
     
     #container4 h1{
         color: black;
-        margin-left: 30rem;
+        margin-left: 21rem;
         font-size: 4rem;
-        font-weight: 500;
+        font-weight: 550;
         margin-bottom: 4rem;
         margin-top: 5rem;
     }
     #container4 img{
-        margin-left: 20rem;
+        margin-left: 12rem;
         width: 60rem;
         margin-bottom: 4rem;
         box-shadow: 0 0 5px 8px rgb(0 0 0 / 40%);

@@ -95,7 +95,7 @@ const Explore = () => {
                         <div className="card-content">
 
                             <h2 className="card-title">AI</h2>
-                            <p className="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla ipsam ex! Tempora totam, non quos tempore facere ullam neque.</p>
+                            <p className="card-body">Artificial Intelligence (AI) involves using computers to do things that traditionally require human intelligence. This means creating algorithms to classify, analyze, and draw predictions from data.</p>
                             <Link to="/Ai" className="button">Learn More</Link>
                         </div>
                     </div>

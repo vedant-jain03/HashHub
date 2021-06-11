@@ -5,6 +5,8 @@ import Explore from "./Components/Explore/Explore"
 import Opensource from "./Components/Fields/Open-source/Opensource"
 import WebDev from "./Components/Fields/web-dev/WebDev"
 import Ai from "./Components/Fields/AI/Ai"
+import Machinelearning from "./Components/Fields/ml/Machinelearning"
+
 function App() {
   return (
     <>
@@ -17,6 +19,7 @@ function App() {
         <Route exact path='/Opensource' component={Opensource} />
         <Route exact path='/WebDev' component={WebDev} />
         <Route exact path='/ai' component={Ai} />
+        <Route exact path='/ml' component={Machinelearning} />
       </Switch>
     </Router>
     </>

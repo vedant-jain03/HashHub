@@ -91,3 +91,11 @@ box-shadow: 0 1px 10px 1px #2de00f;
     letter-spacing: 1.5px;
 
 }
+@media screen and (max-width:800px){
+    #team {
+        background: #0074A8;
+        height: 120vh;
+        width: 268vw;
+        position: relative;
+    }
+}

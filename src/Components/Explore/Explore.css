@@ -342,3 +342,24 @@ padding: 4rem;
 .field-container .card{
     margin: 3rem;
 }
+@media only screen and (max-width:800px){
+    #explore{
+        background: #000835;
+    }
+    #explore #bgimage{
+        display: none;
+    }
+    .iRRwQD{
+        margin-right: 1rem;
+    }
+    .field-section {
+        height: 100vh;
+        background: linear-gradient( 
+    180deg
+     , black, #00134e);
+        padding: 1rem 0rem;
+    }
+    #explore .card{
+        width: 30ch;
+    }
+}

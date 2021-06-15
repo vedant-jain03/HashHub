@@ -47,3 +47,14 @@ font-weight: bold;
 padding: 1rem 5rem;
 margin-top: 4rem;
 }
+
+@media only screen and (max-width: 800px){
+    
+    #About .g2 {
+        left: 42rem;
+        top: 23rem;
+    }
+    #About .content{
+        width: 100%;
+    }
+}

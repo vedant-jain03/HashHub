@@ -65,10 +65,8 @@ const Field = () => {
                         <div className="card-content">
 
                             <h2 className="card-title">Machine Learning</h2>
-                            <p className="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla ipsam ex! Tempora totam, non quos tempore facere ullam neque.</p>
-                            <a href="#" className="button" onClick={() => {
-                                alert('Work In Progress!');
-                            }}>Learn More</a>
+                            <p className="card-body">The field of Machine Learning seeks to answer the question ‘How can we build computer systems that automatically improve with experience, .....</p>
+                            <Link to="/ml" className="button">Learn More</Link>
                         </div>
                     </div>
                     <div className="card">

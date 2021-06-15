@@ -57,7 +57,7 @@ const Explore = () => {
                         <div className="card-content">
 
                             <h2 className="card-title">Open-Source</h2>
-                            <p className="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla ipsam ex! Tempora totam, non quos tempore facere ullam neque.</p>
+                            <p className="card-body">Open-source code is extremely well-adapted to service-oriented architecture. Want to explore more then have a look and deep dive into this endless ocean.</p>
                             <Link to="/Opensource" className="button">Learn More</Link>
                         </div>
                     </div>
@@ -85,10 +85,8 @@ const Explore = () => {
                         <div className="card-content">
 
                             <h2 className="card-title">Machine Learning</h2>
-                            <p className="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla ipsam ex! Tempora totam, non quos tempore facere ullam neque.</p>
-                            <a href="#" className="button" onClick={() => {
-                                alert('Work In Progress!');
-                            }}>Learn More</a>
+                            <p className="card-body">The field of Machine Learning seeks to answer the question ‘How can we build computer systems that automatically improve with experience,.....</p>
+                            <Link to="/ml" className="button">Learn More</Link>
                         </div>
                     </div>
                     <div className="card">
@@ -154,6 +152,21 @@ const Explore = () => {
                                 <a href="https://vedant-jain03.github.io/certificate-generator/" className="button">Use Tool</a>
                             </div>
                         </div>
+                        <div className="card">
+                            <div className="card-content">
+                                <h2 className="card-title">Resume Maker</h2>
+                                <p className="card-body">Resume Maker is tool where you can generate your resume for free. It has functionality like dynamic preview, color themes, responsive ,etc.</p>
+                                <a href="https://vedant-jain03.github.io/Resume-Maker/" className="button">Use Tool</a>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-content">
+                                <h2 className="card-title">Web Compiler</h2>
+                                <p className="card-body">This is a tool you can use to structure design and preview the design simultanously. You can type HTML,CSS and JS here.</p>
+                                <a href="https://yashikajotwani12.github.io/Web-Compiler/" className="button">Use Tool</a>
+                            </div>
+                        </div>
+                        
                     </ItemsCarousel>
                 </div>
             </div>

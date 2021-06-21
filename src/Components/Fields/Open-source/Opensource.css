@@ -260,3 +260,221 @@
     border-radius: 10px;
     overflow: hidden;
 }
+@media screen and (max-width:800px) {
+    #opensource {
+        background: #43cea2;
+        background: linear-gradient(to right, #185a9d, #43cea2);
+        width: 100vw;
+        overflow: hidden;
+    }
+    #landingpage {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    #landingpage > a{
+        text-decoration: none;
+    position: absolute;
+    top: 3%;
+    left: 8rem;
+    color: rgb(255, 152, 0);
+    }
+    #landingpage img {
+        width: 22rem;
+        height: 15rem;
+        top: 0%;
+        margin-top: 5rem;
+    }
+    #landingpage .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* padding: 2rem; */
+        padding-left: 2rem;
+    }
+    #landingpage .content h1 {
+        font-size: 3rem;
+        color: white;
+    }
+    #landingpage .content p {
+        font-size: 13px;
+        font-weight: 500;
+        color: white;
+        padding-left: 7px;
+        padding-top: 1rem;
+    }
+    #opensource .components-OS {
+        height: 100%;
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        margin-top: 2rem;
+    }
+    #opensource .benefits-os {
+        height: 100%;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    #opensource .components-OS h1 {
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    #opensource .components-OS img {
+        position: unset;
+        width: 18rem;
+        right: 2rem;
+        top: 14rem;
+    }
+    #opensource .components-OS h2 {
+        font-size: 1rem;
+        color: #fff;
+        position: relative;
+        text-transform: uppercase;
+    }
+    #opensource .components-OS p {
+        font-size: 12px;
+        font-weight: 500;
+        width: 100%;
+        color: white;
+    }  
+    #opensource .benefits-os h1 {
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    #opensource .prereq-os {
+        height: 100%;
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #opensource .benefits-os ul {
+        margin-left: 2rem;
+    }
+    #opensource .benefits-os li {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 2;
+        color: white;
+    }
+    #opensource .prereq-os h1 {
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    #opensource .prereq-os img {
+        width: 22rem;
+        margin: 0;
+    }
+    #opensource .prereq-os ul {
+        margin-left: 2rem;
+    }
+    #opensource .prereq-os li {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 2;
+        color: white;
+    }
+    #opensource .programs-os h1 {
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+    }
+    #opensource .wrapper {
+        background: #00000026;
+        padding: 1rem;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    #opensource .wrapper .row-1 {
+        justify-content: flex-end;
+    }
+    #opensource .wrapper .row-2 {
+        justify-content: flex-end;
+    }       
+    #opensource .center-line {
+        position: absolute;
+        height: 100%;
+        width: 4px;
+        background: #fff;
+        left: 10%;
+        top: 0px;
+        transform: translateX(-50%);
+    }
+    #opensource .wrapper .row section {
+        background: #fff;
+        border-radius: 5px;
+        width: 90%;
+        padding: 20px;
+        position: relative;
+    }
+    .row section .details .title {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .row section p {
+        margin: 10px 0 17px 0;
+        font-size: 11px;
+    }       
+    .row section .bottom a {
+        text-decoration: none;
+        background: #ff7979;
+        color: #fff;
+        padding: 7px 15px;
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .wrapper .row section::before {
+        position: absolute;
+        content: "";
+        height: 15px;
+        width: 15px;
+        background: #fff;
+        top: 28px;
+        left: -5px;
+        transform: rotate(
+    45deg
+    );
+    }
+    #opensource .wrapper .row {
+        justify-content: flex-end;
+        margin-bottom: 1rem;
+    }
+    .row-2 section .icon {
+        left: -60px;
+        top: 13px;
+        display: none;
+    }
+    #opensource .mostusedlang {
+        height: 100%;
+        width: 100%;
+        padding: 0rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #opensource .mostusedlang h1 {
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    #opensource .mostusedlang img {
+        width: 20rem;
+        height: 11rem;
+    }
+}

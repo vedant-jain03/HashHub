@@ -393,16 +393,16 @@ padding: 4rem;
     #explore-footer {
         margin-bottom: 0rem;
     }
-    #explore .footer img {
+    .footer img {
         width: 8rem;
         margin-top: 14rem;
         height: 7rem;
     }
-    #explore .footer > div h1 {
+    .footer > div h1 {
         font-size: 2rem;
         margin-top: 13rem;
     }
-    #explore .footer div{
+    .footer div{
         font-size: 10px;
     }
     .header {

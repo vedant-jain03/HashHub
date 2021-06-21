@@ -353,7 +353,7 @@ padding: 4rem;
         margin-right: 1rem;
     }
     .field-section {
-        height: 100vh;
+        height: 120vh;
         background: linear-gradient( 
     180deg
      , black, #00134e);
@@ -362,4 +362,55 @@ padding: 4rem;
     #explore .card{
         width: 30ch;
     }
+    #explore {
+        background: #000835;
+        min-width: 100%;
+        overflow: hidden;
+    }
+    .cardcontainermain{
+        padding: 0px 40px;
+        margin-top: 1rem;
+        height: 90vh;
+        overflow-y: scroll;
+    }
+    .grBOFc{
+        display: grid;
+    }
+    #explore .card {
+        color: var(--clr-neautral-100);
+        /* font-family: sans-serif; */
+        background-image: url(https://image.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg);
+        background-size: cover;
+        padding: 4rem 0 0;
+        width: 35ch;
+        border-radius: 1rem;
+        overflow: hidden;
+        height: 320px;
+        transition: transform 500ms ease;
+        margin-right: 3rem;
+        margin: 2rem 3rem;
+    }
+    #explore-footer {
+        margin-bottom: 0rem;
+    }
+    .footer img {
+        width: 8rem;
+        margin-top: 14rem;
+        height: 7rem;
+    }
+    .footer > div h1 {
+        font-size: 2rem;
+        margin-top: 13rem;
+    }
+    .footer div{
+        font-size: 10px;
+    }
+}
+.field-section{
+    background: #00134e;
+}
+#explore .tool-section {
+    background: linear-gradient( 
+180deg
+ , black, #00134e);
 }

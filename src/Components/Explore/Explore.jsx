@@ -35,12 +35,72 @@ const Explore = () => {
                     <p>This is explore section where you will get lot of field.</p>
                 </div>
             </div>
+            
+            <div className="field-section tool-section" >
+                <div className="content" data-aos="fade-right">
+                    <h1>Tools</h1>
+                    <p>We have awesome tools which students should know</p>
+                </div>
+                <div className="field-container cardcontainermain">
+
+                    <ItemsCarousel
+                        requestToChangeActive={setActiveItemIndex}
+                        activeItemIndex={activeItemIndex}
+                        numberOfCards={3}
+                        gutter={15}
+                        leftChevron={<button style={{ fontSize: '2rem', padding: '40px 10px', border: 'none', background: 'rgb(40 44 52 / 47%)', marginLeft: '-2px', color: 'white', cursor: 'pointer' }}>{'<'}</button>}
+                        rightChevron={<button style={{ fontSize: '2rem', padding: '40px 10px', border: 'none', background: 'rgb(40 44 52 / 47%)', color: 'white', cursor: 'pointer', marginRight: '0' }}>{'>'}</button>}
+                        outsideChevron
+                        chevronWidth={chevronWidth}
+                    >
+                        
+                        <div className="card">
+                            <div className="card-content">
+                                <h2 className="card-title">Resume Maker</h2>
+                                <p className="card-body">Resume Maker is tool where you can generate your resume for free. It has functionality like dynamic preview, color themes, responsive ,etc.</p>
+                                <a href="https://vedant-jain03.github.io/Resume-Maker/" className="button">Use Tool</a>
+                            </div>
+                        </div>
+                        
+                        <div className="card">
+                            <div className="card-content">
+                                <h2 className="card-title">Repository Readme.md Generator</h2>
+                                <p className="card-body">This is Repository Readme.md Generator Which you can use to create your repostory readme which represent your repo more interesting..</p>
+                                <a href="https://vedant-jain03.github.io/Repo-Readme-Md-Generator/" className="button">Use Tool</a>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-content">
+                                <h2 className="card-title">Github Profile Readme Generator</h2>
+                                <p className="card-body">This is Profile Readme Generator Which you can use to create your github profile readme.It has so many section which will make your profile cooler then ever.</p>
+                                <a href="https://vedant-jain03.github.io/Github-Profile-Readme-Generator/" className="button">Use Tool</a>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-content">
+                                <h2 className="card-title">Certificate Generator</h2>
+                                <p className="card-body">This is Certificate Generator which you can use to make e-certificate and download as a pdf and then you can distribute the certificates to the students.</p>
+                                <a href="https://vedant-jain03.github.io/certificate-generator/" className="button">Use Tool</a>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-content">
+                                <h2 className="card-title">Web Compiler</h2>
+                                <p className="card-body">This is a tool you can use to structure design and preview the design simultanously. You can type HTML,CSS and JS here.</p>
+                                <a href="https://yashikajotwani12.github.io/Web-Compiler/" className="button">Use Tool</a>
+                            </div>
+                        </div>
+                        
+                    </ItemsCarousel>
+                </div>
+            </div>
+
             <div className="field-section">
                 <div className="content">
                     <h1 data-aos="fade-right">Fields</h1>
                     <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, libero!</p>
                 </div>
-                <div style={{ padding: `0 ${chevronWidth}px` ,    marginTop: '1rem',}}>
+                <div style={{ padding: `0 ${chevronWidth}px` ,    marginTop: '1rem',}}  className="cardcontainermain" >
                 
                 <ItemsCarousel
                     requestToChangeActive={setActiveItemIndex}
@@ -51,6 +111,7 @@ const Explore = () => {
                     rightChevron={<button style={{fontSize:'2rem',padding:'40px 10px',border:'none',background:'rgb(40 44 52 / 47%)',color:'white', cursor:'pointer', marginRight:'0'}}>{'>'}</button>}
                     outsideChevron
                     chevronWidth={chevronWidth}
+                   
                 >
 
                     <div className="card">
@@ -120,57 +181,7 @@ const Explore = () => {
                 {/* </div> */}
             </div>
             </div>
-            <div className="field-section tool-section" >
-                <div className="content" data-aos="fade-right">
-                    <h1>Tools</h1>
-                    <p>We have awesome tools which students should know</p>
-                </div>
-                <div className="field-container">
-
-                    <ItemsCarousel
-                        requestToChangeActive={setActiveItemIndex}
-                        activeItemIndex={activeItemIndex}
-                        numberOfCards={3}
-                        gutter={15}
-                        leftChevron={<button style={{ fontSize: '2rem', padding: '40px 10px', border: 'none', background: 'rgb(40 44 52 / 47%)', marginLeft: '-2px', color: 'white', cursor: 'pointer' }}>{'<'}</button>}
-                        rightChevron={<button style={{ fontSize: '2rem', padding: '40px 10px', border: 'none', background: 'rgb(40 44 52 / 47%)', color: 'white', cursor: 'pointer', marginRight: '0' }}>{'>'}</button>}
-                        outsideChevron
-                        chevronWidth={chevronWidth}
-                    >
-
-                        <div className="card">
-                            <div className="card-content">
-                                <h2 className="card-title">Github Profile Readme Generator</h2>
-                                <p className="card-body">This is Profile Readme Generator Which you can use to create your github profile readme.It has so many section which will make your profile cooler then ever.</p>
-                                <a href="https://vedant-jain03.github.io/Github-Profile-Readme-Generator/" className="button">Use Tool</a>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="card-content">
-                                <h2 className="card-title">Certificate Generator</h2>
-                                <p className="card-body">This is Certificate Generator which you can use to make e-certificate and download as a pdf and then you can distribute the certificates to the students.</p>
-                                <a href="https://vedant-jain03.github.io/certificate-generator/" className="button">Use Tool</a>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="card-content">
-                                <h2 className="card-title">Resume Maker</h2>
-                                <p className="card-body">Resume Maker is tool where you can generate your resume for free. It has functionality like dynamic preview, color themes, responsive ,etc.</p>
-                                <a href="https://vedant-jain03.github.io/Resume-Maker/" className="button">Use Tool</a>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="card-content">
-                                <h2 className="card-title">Web Compiler</h2>
-                                <p className="card-body">This is a tool you can use to structure design and preview the design simultanously. You can type HTML,CSS and JS here.</p>
-                                <a href="https://yashikajotwani12.github.io/Web-Compiler/" className="button">Use Tool</a>
-                            </div>
-                        </div>
-                        
-                    </ItemsCarousel>
-                </div>
-            </div>
-
+            
             <div className="footer" id="explore-footer">
             <img src={group26} alt=""/>
             <div>

@@ -19,7 +19,7 @@ const Field = () => {
             <center><h1 className="head" data-aos="zoom-in-down">Our Fields</h1></center>
             <center><p className="para" data-aos="fade-down">We cover each and everything which might resist you from achieving your skills. Your solutions under one roof that only we offer.</p></center>
             {/* <div className="slider"> */}
-            <div style={{ padding: `0 ${chevronWidth}px` ,background: 'hsl(0deg 0% 0% / 30%)',    marginTop: '1rem',boxShadow: 'inset 10px 5px 51px 27px #0000005c'}}>
+            <div style={{ padding: `0 ${chevronWidth}px` ,background: 'hsl(0deg 0% 0% / 30%)',    marginTop: '1rem',boxShadow: 'inset 10px 5px 51px 27px #0000005c'}} className="homepagecards"  >
                 
                 <ItemsCarousel
                     requestToChangeActive={setActiveItemIndex}

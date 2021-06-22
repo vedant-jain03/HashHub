@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#webdev{
+    background:linear-gradient(to right, #185a9d, #43cea2)
+}
+#landingpage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#landingpage .left{
+    margin-left: 4rem;
+}
+#landingpage .left h2{
+    font-size: 2rem;
+    color: white;
+}
+#landingpage .left h1{
+    font-size: 3.5rem;
+    color: white;
+}
+#landingpage .left p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+#webdev .component-wd{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+}
+#webdev .component-wd h1{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+#webdev .component-wd .info h2{
+    position: relative;
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 1rem;
+}
+#webdev .component-wd .info h2::before{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 10%;
+    background: #e91e63;
+    top: 42px;
+}
+
+#webdev .component-wd .info p{
+    width: 60%;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}

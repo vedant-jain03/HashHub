@@ -22,13 +22,13 @@ const Homepage = () => {
         <div className="container">
             <div className="header" style={{top:offset*0.25+'px'}}>
                 <a href="#" className="logo">Hash/Hub</a>
-                <ul>
+                {/* <ul>
                     <li><a href="#" className="active">Home</a></li>
                     <li><a href="#About">About Us</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#field">Field</a></li>
                     <li><a href="#contact">Contact Us</a></li>
-                </ul>
+                </ul> */}
             </div>
             <div className="landingpage">
                 <h2 id="text"  style={{top:20+ offset * -0.1+'%'}}>Find your right path with <span><br/>Hash/Hub</span></h2>

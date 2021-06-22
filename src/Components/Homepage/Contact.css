@@ -76,3 +76,11 @@
 .footer > div h1{
     font-size: 4rem;
 }
+@media screen and (max-width:800px){
+    #contact {
+        height: 100vh;
+        width: 268vw;
+        background: #0074A8;
+        color: white;
+    }
+}

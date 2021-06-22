@@ -73,7 +73,7 @@ const Opensource = () => {
             </div>
             <div className="components-OS" data-aos="fade-left">
                 <h1>Main Components of Open Source Contributions</h1>
-
+                <img src="https://www.westcodesoft.com/wp-content/uploads/2017/08/Open-Source-Software.jpeg" alt="os" />
                 <h2>Organisation:</h2>
                 <br />
                 <p data-aos="fade-right">Open Source Organisations are Organisation or might be Umbrella Organisations that owns the particular source code or project or software you want to contribute to.
@@ -84,7 +84,7 @@ const Opensource = () => {
                 <h2>Contributors:</h2>
                 <br />
                 <p data-aos="fade-right">Open Source Contributors are programmers /  developers who modify in the source code of Organisation. Simply those who contribute to Source codes of Open Source Organisation are Contributors.</p>
-                <img src="https://www.westcodesoft.com/wp-content/uploads/2017/08/Open-Source-Software.jpeg" alt="os" />
+                
             </div>
             <div className="benefits-os">
                 <h1>Perks & Benefits of Open Source Contributions</h1>

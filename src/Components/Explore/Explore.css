@@ -342,3 +342,242 @@ padding: 4rem;
 .field-container .card{
     margin: 3rem;
 }
+@media only screen and (max-width:800px){
+    #explore{
+        background: #000835;
+    }
+    #explore #bgimage{
+        display: none;
+    }
+    #explore .iRRwQD{
+        margin-right: 1rem;
+    }
+    #explore .field-section {
+        height: 120vh;
+        background: linear-gradient( 
+    180deg
+     , black, #00134e);
+        padding: 1rem 0rem;
+    }
+    #explore .card{
+        width: 30ch;
+    }
+    #explore {
+        background: #000835;
+        min-width: 100%;
+        overflow: hidden;
+    }
+    #explore .cardcontainermain{
+        padding: 0px 40px;
+        margin-top: 1rem;
+        height: 90vh;
+        overflow-y: scroll;
+    }
+    #explore .grBOFc{
+        display: grid;
+    }
+    #explore .card {
+        color: var(--clr-neautral-100);
+        /* font-family: sans-serif; */
+        background-image: url(https://image.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg);
+        background-size: cover;
+        padding: 4rem 0 0;
+        width: 35ch;
+        border-radius: 1rem;
+        overflow: hidden;
+        height: 320px;
+        transition: transform 500ms ease;
+        margin-right: 3rem;
+        margin: 2rem 3rem;
+    }
+    #explore-footer {
+        margin-bottom: 0rem;
+    }
+    .footer img {
+        width: 8rem;
+        margin-top: 14rem;
+        height: 7rem;
+    }
+    .footer > div h1 {
+        font-size: 2rem;
+        margin-top: 13rem;
+    }
+    .footer div{
+        font-size: 10px;
+    }
+    .header {
+        display: none;
+    }
+    .landingpage {
+        position: relative;
+        width: 101vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        overflow: hidden;
+        background: rgb(255 255 255);
+    }
+    .Section {
+        position: relative;
+        background: #0074A8;
+        width: 101%;
+        height: 100vh;
+        padding: 7rem 0;
+        padding: 0;
+    }
+    #About .content {
+        position: absolute;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        z-index: 1;
+        padding: 3rem;
+    }
+    #About .g2 {
+        left: 14rem;
+        top: 27rem;
+        /* display: none; */
+        width: 12rem;
+    }
+    #About .g23 {
+        left: 0rem;
+        width: 9rem;
+        /* display: none; */
+    }
+    #field {
+        background: #0074A8;
+        height: 126vh;
+        width: 100vw;
+        position: relative;
+        color: white;
+        padding: 8rem 0;
+        margin-top: 0rem;
+        /* display: none; */
+    }
+    /* #field div{
+        padding: 0px 40px;
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 1rem;
+    box-shadow: rgb(0 0 0 / 36%) 10px 5px 51px 27px inset;
+    overflow-y: scroll;
+    }
+    #field div .grBOFc{
+        display: grid;
+    }
+    #field .card {
+        color: var(--clr-neautral-100);
+
+        background-image: url(https://image.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg);
+        background-size: cover;
+        padding: 4rem 0 0;
+        min-width: 35ch;
+        border-radius: 1rem;
+        overflow: hidden;
+        height: 320px;
+        transition: transform 500ms ease;
+        margin: 1rem 0;
+    } */
+    #team {
+        background: #0074A8;
+        height: auto;
+        width: 101vw;
+        position: relative;
+        padding: 3rem 0;
+    }
+    #team .TeamCards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 5rem;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    #team .cards {
+        width: 220px;
+        height: 272px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 1px 10px 1px black;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        overflow: hidden;
+        transition: 0.3s ease-in-out;
+    }
+    .landingpage #text span {
+        font-size: 3rem;
+        letter-spacing: 2px;
+        font-weight: 800;
+        margin-bottom: 5rem;
+    }
+    #About .content {
+        margin: 0;
+        width: 100%;
+    }
+    .container {
+        background: white;
+        max-width: 100vw;
+        overflow: hidden;
+    }
+    .card {
+        color: var(--clr-neautral-100);
+        /* font-family: sans-serif; */
+        background-image: url(https://image.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg);
+        background-size: cover;
+        padding: 4rem 0 0;
+        min-width: 35ch;
+        border-radius: 1rem;
+        overflow: hidden;
+        height: 320px;
+        transition: transform 500ms ease;
+        margin: 3rem 0;
+    }
+    #team .Content {
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7rem;
+        text-align: center;
+    }
+    .contact-form .formbtn {
+        padding: 1rem 9.7rem;
+        font-size: 23px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        cursor: pointer;
+        border: none;
+        transition: .5s ease;
+    }
+    .homepagecards{
+        padding: 0px 40px;
+        background: rgba(0, 0, 0, 0.3);
+        margin-top: 1rem;
+        box-shadow: rgb(0 0 0 / 36%) 10px 5px 51px 27px inset;
+        overflow-y: scroll;
+        height: 60vh;
+    }
+    .homepagecards .grBOFc{
+        display: grid;
+    }
+    
+    .homepagecards .grBOFc button{
+        display: none;
+    }
+}
+#explore .field-section{
+    background: #00134e;
+}
+#explore .tool-section {
+    background: linear-gradient( 
+180deg
+ , black, #00134e);
+}

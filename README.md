@@ -21,6 +21,8 @@ Hash/Hub is here to provide everything that revolves around your engineering deg
 * React
 * Material-UI (For Icons)
 * AOS (For Scrolling Animations)
+* carousel (For Card Slider)
+* gh-pages (To host the React App)
 * React-to-Print (To Convert my HTML to pdf and print)
 
 ## Contribution Guidelines🏗

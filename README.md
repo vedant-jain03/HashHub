@@ -5,18 +5,15 @@
 # Table of Contents:
 
     - Overview
-    - Demonstration
-    - Tech Stack & Dependency Used
+    - Technology & Dependencies Used
     - Folder Structure
-    - Running Locally
-    - Learning
     - Contribution Guideline
 
 ## Overview 🔨
 
 Hash/Hub is here to provide everything that revolves around your engineering degree, we have so many different free Tools to make your Profile more Attractive and Professional. We have Fields section where you will find out resourses, roadmaps, experiences, programs, competetions, tips and tricks to not just master your degree but also explore and enjoy every aspect of being an engineer with a full pack of knowledges.
 
-## Technology Used 🖥️
+## Technology & Dependencies Used 🖥️
 
 * React
 * Material-UI (For Icons)

@@ -338,6 +338,9 @@
     left: 10%;
     max-width: 80%;
  }
+ .mobile-view{
+    display: none;
+}
  @media screen and (max-width:800px){
     .mobile-view {
       display: block;
@@ -355,3 +358,4 @@
       display: none;
     }
   }
+  

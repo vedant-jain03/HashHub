@@ -25,7 +25,19 @@ Hash/Hub is here to provide everything that revolves around your engineering deg
 * gh-pages (To host the React App)
 * React-to-Print (To Convert my HTML to pdf and print)
 
-## Contribution Guidelines🏗
+## Folder Structure 📒
+
+* [Homepage](https://github.com/vedant-jain03/HashHub/tree/master/src/Components/Homepage)
+* [Explore](https://github.com/vedant-jain03/HashHub/tree/master/src/Components/Explore)
+* [Tools](https://github.com/vedant-jain03/HashHub/tree/master/src/Components/Tools)
+    - [Certificate Generator](https://github.com/vedant-jain03/HashHub/tree/master/src/Components/Tools/Certificate%20Generator)
+    - [Resume Maker](https://github.com/vedant-jain03/HashHub/tree/master/src/Components/Tools/Resume%20Maker)
+    - [Github Profile Readme Generator](https://github.com/vedant-jain03/HashHub/tree/master/src/Components/Tools/Github_Profile_Readme_Generator)
+    - [Github Readme Markdown Generator](https://github.com/vedant-jain03/HashHub/tree/master/src/Components/Tools/Github%20Markdown%20Generator)
+    - [Smart Pdf](https://github.com/vedant-jain03/HashHub/tree/master/src/Components/Tools/Smart%20Pdf)
+* [Fields](https://github.com/vedant-jain03/HashHub/tree/master/src/Components/Fields)
+
+## Contribution Guidelines 🏗
 
 Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. To start contributing, follow the below guidelines:
 

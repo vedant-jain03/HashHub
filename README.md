@@ -1,14 +1,23 @@
+# Hash/Hub
+
+![Badge](https://img.shields.io/badge/Tech_Stack-React-yellow) ![Badge](https://img.shields.io/badge/Version-1.2-green) ![Badge](https://img.shields.io/badge/License-Apache_2.0-blue) ![Badge](https://img.shields.io/badge/Type-OpenSource-orange)
+
+## Overview 🔨
+
+Hash/Hub is here to provide everything that revolves around your engineering degree, we have so many different free Tools to make your Profile more Attractive and Professional. We have Fields section where you will find out resourses, roadmaps, experiences, programs, competetions, tips and tricks to not just master your degree but also explore and enjoy every aspect of being an engineer with a full pack of knowledges.
+
+
+
 ## Contribution Guidelines🏗
 
-Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. 
-To start contributing, follow the below guidelines: 
+Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. To start contributing, follow the below guidelines:
 
-**1.**  Fork [this](https://github.com/vedant-jain03/HashHub) repository.
+**1.** Fork [this](https://github.com/vedant-jain03/HashHub) repository.
 
-**2.**  Clone your forked copy of the project.
+**2.** Clone your forked copy of the project.
 
 ```
-git clone https://github.com/<your_user_name>/HashHub.git
+git clone https://github.com/vedant-jain03/HashHub.git
 ```
 
 **3.** Navigate to the project directory :file_folder: .
@@ -20,7 +29,7 @@ cd HashHub
 **4.** Add a reference(remote) to the original repository.
 
 ```
-git remote add upstream https://github.com/vedant-jain03/HashHub.git 
+git remote add upstream https://github.com/vedant-jain03/HashHub.git
 ```
 
 **5.** Check the remotes for this repository.
@@ -32,7 +41,7 @@ git remote -v
 **6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
 
 ```
-git pull upstream master
+git pull upstream main
 ```
 
 **7.** Create a new branch.
@@ -46,7 +55,7 @@ git checkout -b <your_branch_name>
 **9.** Track your changes:heavy_check_mark: .
 
 ```
-git add . 
+git add .
 ```
 
 **10.** Commit your changes .
@@ -67,5 +76,5 @@ git push -u origin <your_branch_name>
 
 **14.** Click on `Create Pull Request`.
 
-
 **15** Voila :exclamation: You have made a PR to the awesome-javascript-projects :boom: . Wait for your submission to be accepted and your PR to be merged.
+Made by ❤️ using [Readme.md Generator](https://github.com/vedant-jain03/Repo-Readme-Md-Generator)

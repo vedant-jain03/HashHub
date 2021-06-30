@@ -2,11 +2,26 @@
 
 ![Badge](https://img.shields.io/badge/Tech_Stack-React-yellow) ![Badge](https://img.shields.io/badge/Version-1.2-green) ![Badge](https://img.shields.io/badge/License-Apache_2.0-blue) ![Badge](https://img.shields.io/badge/Type-OpenSource-orange)
 
+# Table of Contents:
+
+    - Overview
+    - Demonstration
+    - Tech Stack & Dependency Used
+    - Folder Structure
+    - Running Locally
+    - Learning
+    - Contribution Guideline
+
 ## Overview 🔨
 
 Hash/Hub is here to provide everything that revolves around your engineering degree, we have so many different free Tools to make your Profile more Attractive and Professional. We have Fields section where you will find out resourses, roadmaps, experiences, programs, competetions, tips and tricks to not just master your degree but also explore and enjoy every aspect of being an engineer with a full pack of knowledges.
 
+## Technology Used 🖥️
 
+* React
+* Material-UI (For Icons)
+* AOS (For Scrolling Animations)
+* React-to-Print (To Convert my HTML to pdf and print)
 
 ## Contribution Guidelines🏗
 
@@ -77,4 +92,5 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 
 **15** Voila :exclamation: You have made a PR to the awesome-javascript-projects :boom: . Wait for your submission to be accepted and your PR to be merged.
+
 Made by ❤️ using [Readme.md Generator](https://github.com/vedant-jain03/Repo-Readme-Md-Generator)

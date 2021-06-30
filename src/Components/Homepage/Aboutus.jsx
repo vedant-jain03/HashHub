@@ -15,7 +15,7 @@ const Aboutus = () => {
         <div id="About">
             <div className="content" >
                 <h2 data-aos="zoom-in-down" ><span>About</span> Us</h2>
-                <p data-aos="fade-up">Hash/Hub is here to provide everything that revolves around your engineering degree, we have resourses, roadmaps, experiences, programs, competetions, tips and tricks to not just master your degree but also explore and enjoy every aspect of being an engineer with a full pack of knowledges. </p>
+                <p data-aos="fade-up">Hash/Hub is here to provide everything that revolves around your engineering degree, we have tools,generators,resourses, roadmaps, experiences, programs, competetions, tips and tricks to not just master your degree but also explore and enjoy every aspect of being an engineer with a full pack of knowledges. </p>
                 <Link to="/Explore" className="primary" data-aos="flip-up">Explore</Link>
              </div>
             <img src={g2} data-aos="fade-left" className="g2" alt=""/>

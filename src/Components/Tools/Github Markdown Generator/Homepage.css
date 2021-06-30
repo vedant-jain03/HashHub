@@ -1,0 +1,376 @@
+#markdown {
+    display: flex;
+    /* justify-content: center; */
+    padding: 1rem;
+    flex-direction: column;
+    background-color: #08aeea;
+    background-image: linear-gradient( 
+45deg
+ ,#08aeea,#2af598);
+    min-height: 100vh;
+}
+#markdown .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background: white;
+    border-radius: 5px;
+}
+#markdown .header h3{
+    color: #0ab2e6;
+}
+
+#markdown .header h1{
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #1bd5bc;
+}
+#markdown .header .button button{
+    position: relative;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #22e5a9;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    margin-left: 10px;
+}
+#markdown .sections{
+    margin-top: 1rem;
+    overflow: hidden;
+    border-radius: 5px;
+}
+#markdown .navbar{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    background: #c1c1c1;
+}
+#markdown .navbar h2{
+    font-size: 18px;
+    font-weight: 500;
+    width: 33.3%;
+    cursor: pointer;
+    line-height: 1.8;
+    position: relative;
+    transition: 0.5s ease;
+}
+#markdown .navbar .active{
+    background-color: white;
+}
+
+#markdown .navbar .active::after{
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 2px;
+    background-color: #0ab2e6;
+    bottom: 2px;
+    left: 43%;
+}
+#markdown .section{
+    background-color: white;
+    padding: 2rem 1rem;
+}
+#markdown .input-field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+#markdown .input-field h3{
+    font-weight: 400;
+    font-size: 15px;
+}
+#markdown .input-field input{
+    font-size: 16px;
+    padding: 8px 16px;
+    width: 90%;
+    /* max-height: 40px; */
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+#markdown .tag{
+    margin-top: 1rem;
+}
+#markdown .heading{
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 1rem;
+}
+#markdown .heading::after{
+    position: absolute;
+    content: "";
+    width: 2%;
+    height: 3px;
+    background-color: #29f49a;
+    bottom: 0px;
+    left: 4px;
+}
+#markdown .tag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#markdown .tag .tag-box{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+#markdown .tag .tag-box div{
+    display: flex;
+}
+#markdown .tag .tag-box h3{
+    font-weight: 400;
+    font-size: 17px;
+}
+#markdown .tag .tag-box div input{
+    width: 7rem;
+    padding: 3px 6px;
+    margin-right: 10px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
+    padding: 7px 10px;
+    font-size: 14px;
+}
+#markdown .tagpreview img{
+    margin-right: 1rem;
+}
+#markdown .input-field textarea{
+    font-size: 16px;
+    padding: 8px 16px;
+    width: 90%;
+    min-height: 6rem;
+    font-family: inherit;
+    /* max-height: 40px; */
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px
+}
+#markdown .text-area{
+    align-items: baseline;
+    font-family: inherit;
+}
+#markdown .feature .up{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#markdown .feature .up h3{
+    margin-right: 72px;
+}
+#markdown .feature .up input{
+    margin-right: 1rem;
+}
+#markdown .feature{
+    flex-direction: column;
+}
+#markdown .feature .up button{
+    position: relative;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #22e5a9;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    margin-left: 10px;
+}
+#markdown .feature .down{
+    margin-top: 1rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 90%;
+    background: rgba(0,0,0,0.1);
+    margin-left: 8rem;
+}
+#markdown .down div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    overflow: hidden;
+    word-break: break-word;
+}
+#markdown .down div button{
+    position: relative;
+    display: inline-block;
+    padding: 0px 7px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #22e5a9;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    margin-left: 10px;
+}
+#markdown .readme-md{
+    margin-top: 1rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 5px;
+}
+#markdown .cont-guide{
+    justify-content: normal;
+}
+#markdown .header .button a{
+    position: relative;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #22e5a9;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    margin-left: 10px;
+}
+#markdown .cont-guide .newinput{
+    width: 20%;
+    margin-right: 1rem;
+}
+#markdown .navbar{
+    max-height: 2rem;
+}
+@media screen and (max-width:800px){
+    #markdown  .header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        background: white;
+        border-radius: 5px;
+    }
+    #markdown  .header h3 {
+        color: #0ab2e6;
+        font-size: 10px;
+    }
+    #markdown  .header h1 {
+        font-size: 14px;
+        letter-spacing: 0px;
+        color: #1bd5bc;
+    }
+    #markdown  .header .button{
+        display: none;
+    }
+    #markdown  .navbar h2 {
+        font-size: 10px;
+        font-weight: 500;
+        width: 33.3%;
+        cursor: pointer;
+        line-height: 1.8;
+        position: relative;
+        transition: 0.5s ease;
+    }
+    #markdown .tag{
+        display: grid;
+    }
+    #markdown .tag .tag-box{
+        width: 100%;
+    }
+    #markdown .feature .down {
+        margin-top: 1rem;
+        border: 1px solid gray;
+        padding: 1rem;
+        border-radius: 5px;
+        width: 100%;
+        background: rgba(0,0,0,0.1);
+        margin-left: 0;
+    }
+    #markdown .cont-guide{
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+    #markdown .cont-guide br{
+        display: none;
+    }
+    #markdown .cont-guide .newinput{
+    width: 90%;
+    margin-top: 1rem;
+    margin-right: 10px;
+    }
+    #markdown .navbar {
+        display: flex;
+        justify-content: space-around;
+        background: white;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+        background: #c1c1c1;
+        max-height: 1rem;
+    }
+}
+
+#markdown .header {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: white;
+    border-radius: 5px;
+}

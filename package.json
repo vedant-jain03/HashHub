@@ -15,6 +15,7 @@
     "react-items-carousel": "^2.8.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
+    "react-to-print": "^2.12.6",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

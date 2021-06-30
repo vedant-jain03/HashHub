@@ -19,7 +19,7 @@ const Homepage = () => {
     const handleScroll=()=>setOffset(window.pageYOffset)
     window.addEventListener('scroll',handleScroll)
     return (
-        <div className="container">
+        <div className="container" id="homepage">
             <div className="header" style={{top:offset*0.25+'px'}}>
                 <a href="#" className="logo">Hash/Hub</a>
                 {/* <ul>
@@ -45,7 +45,7 @@ const Homepage = () => {
             <Field />
             <TeamSection/>
             
-            <Contact />
+            {/* <Contact /> */}
         </div>
     )
 }

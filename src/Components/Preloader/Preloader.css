@@ -1,0 +1,65 @@
+.preloader{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a8c0ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.preloader h1{
+    font-size: 4rem;
+    color: white;
+}
+.loader{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    background-color: white;
+    width: 7px;
+    height: 40px;
+    margin: 0px 5px;
+    border: none;
+    animation: size 0.8s infinite linear;
+    border-radius: 20px;
+}
+
+.line-1{
+    animation-delay: 0.60s;
+}
+.line-2{
+    animation-delay: 0.30s;
+}
+.line-3{
+    animation-delay: 0s;
+    }
+.line-4{
+    animation-delay: 0.30s;
+}
+.line-5{
+    animation-delay: 0.60s;
+}
+
+@keyframes size{
+    0%{
+        height: 40px;
+    }
+    25%{
+        height: 60px;
+    }
+    50%{
+        height: 90px;
+    }
+    75%{
+        height: 60px;
+    }
+    100%{
+        height: 40px;
+    }
+}

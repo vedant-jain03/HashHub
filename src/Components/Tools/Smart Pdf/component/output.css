@@ -1,0 +1,43 @@
+@media print{
+    @page{
+        size: landscape;
+    }
+}
+@media all {
+    .page-break {
+      display: none;
+    }
+  }
+  
+  @media print {
+    html, body {
+      height: initial !important;
+      overflow: initial !important;
+      -webkit-print-color-adjust: exact;
+    }
+  }
+  
+  @media print {
+    .page-break {
+      margin-top: 1rem;
+      display: block;
+      page-break-before: auto;
+    }
+  }
+  
+  @page {
+    size: auto;
+    margin: 20mm;
+  }
+  .message{
+      display: none;
+  }
+  @media screen and (max-width:1000px){
+      .message{
+          display: block;
+      }
+      #smartpdf{
+          display: none;
+      }
+  }
+  

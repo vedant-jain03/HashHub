@@ -13,6 +13,7 @@
  
 </p>
    
+   
 # Table of Contents
 
     - Overview
@@ -27,12 +28,12 @@ Hash/Hub is here to provide everything that revolves around your engineering deg
 
 ## Technology & Dependencies Used 🖥️
 
-* React
-* Material-UI (For Icons)
-* AOS (For Scrolling Animations)
-* carousel (For Card Slider)
-* gh-pages (To host the React App)
-* React-to-Print (To Convert my HTML to pdf and print)
+- [x]  React
+- [x]  Material-UI (For Icons)
+- [x]  AOS (For Scrolling Animations)
+- [x]  carousel (For Card Slider)
+- [x]  gh-pages (To host the React App)
+- [x]  React-to-Print (To Convert my HTML to pdf and print)
 
 ## Folder Structure 📒
 
@@ -123,5 +124,3 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 
 **15** Voila :exclamation: You have made a PR to the awesome-javascript-projects :boom: . Wait for your submission to be accepted and your PR to be merged.
-
-Made by ❤️ using [Readme.md Generator](https://github.com/vedant-jain03/Repo-Readme-Md-Generator)

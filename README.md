@@ -2,6 +2,8 @@
 
 ![Badge](https://img.shields.io/badge/Tech_Stack-React-yellow) ![Badge](https://img.shields.io/badge/Version-1.2-green) ![Badge](https://img.shields.io/badge/License-Apache_2.0-blue) ![Badge](https://img.shields.io/badge/Type-OpenSource-orange) ![Badge](https://img.shields.io/badge/For-Students-red)
 
+![PicsArt_07-01-08 36 06 1](https://user-images.githubusercontent.com/76901313/124147711-8ffec280-daac-11eb-925a-8d9ddbc5b74e.png)
+
 # Table of Contents
 
     - Overview

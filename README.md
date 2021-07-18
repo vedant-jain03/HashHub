@@ -170,9 +170,3 @@ git push -u origin <your_branch_name>
 
 <br />
 
-<div align="center">
-
-[![Uses Git](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/vedant-jain03/HashHub) [![Uses HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/vedant-jain03/HashHub) [![Uses CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/vedant-jain03/HashHub) 
-[![Built with love](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/vedant-jain03/HashHub) 
-
-</div>

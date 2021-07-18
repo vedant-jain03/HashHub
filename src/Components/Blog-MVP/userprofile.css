@@ -1,0 +1,102 @@
+#user-profile{
+    min-height: 89vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#user-profile > h1{
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #42b993;
+}
+#user-profile .user-card{
+    padding: 1rem;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid #42b993;
+    border-radius: 5px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+#user-profile .user-card .MuiSvgIcon-root{
+    font-size: 8rem;
+}
+#user-profile .user-card div > h2{
+    color: #42b983;
+    font-weight: bold;
+    margin: 0%;
+}
+#user-profile .user-card div > h3{
+    margin: 0;
+}
+#user-profile .user-card div > h4{
+    font-size: 1rem;
+    color: gray;
+    font-weight: 400;
+    margin: 0;
+}
+#user-profile .users-blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 100%; */
+    align-items: center;
+    padding: 1rem 5rem;
+}
+#user-profile .users-blogs .blog-card{
+    width: 40ch;
+    overflow: hidden;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid;
+    margin: 1rem;
+}
+#user-profile .users-blogs .blog-card img{
+    width: 100%;
+    border-radius: 10px;
+}
+#user-profile .users-blogs .blog-card h2{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 1rem;
+}
+#user-profile .users-blogs .blog-card p{
+    overflow: hidden;
+    max-height: 5rem;
+    color: #3d4f58;
+}
+#user-profile .users-blogs .blog-card .buttons button{
+    padding: 7px 20px;
+    border: 2px solid #42b983;
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #42b983;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+#user-profile .users-blogs .blog-card .buttons button:hover{
+    color: white;
+    background-color: #42b993;
+}
+
+#user-profile .users-blogs .blog-card .buttons .delete{
+    border: 2px solid red;
+    color: red;
+}
+#user-profile .users-blogs .blog-card .buttons .delete:hover{
+    color: white;
+    background-color: red;
+}

@@ -1,0 +1,93 @@
+.login_register{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+}
+.login_register .left{
+    flex: 0.70;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login_register .left a{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4c56c0;
+    text-decoration: none;
+}
+.login_register .left h3{
+    font-weight: bold;
+    color: #776fa0;
+}
+.login_register .right{
+    height: 100%;
+    flex: 0.30;
+    background: #4c56c0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 1rem;
+}
+.login_register .right h2{
+    color: white;
+    font-weight: 400;
+}
+.login_register .right h4{
+    color: white;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.login_register .right .inputfields{
+    margin-bottom: 1rem;
+}
+.login_register .right .inputfields p{
+    margin: 0;
+    color: white;
+    font-weight: 100;
+}
+.login_register .right .inputfields input{
+    outline: none;
+    padding: 10px 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #3c46a7;
+    color: white;
+    width: 90%;
+}
+.login_register .right button{
+    border: none;
+    padding: 10px;
+    width: 50%;
+    margin-top: 1rem;
+    border-radius: 25px;
+    background: #f9617d;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.login_register .right button:hover{
+    box-shadow: 0 0 5px 5px rgb(0 0 0 / 10%);
+}
+.login_register .right .para{
+    font-size: 1rem;
+    color: white;
+}
+.login_register .right .para a{
+    color: #ffc107;
+    font-weight: 500;
+    text-decoration: none;
+}
+@media only screen and (max-width:900px){
+    .login_register .left{
+        display: none;
+    }
+    .login_register .right{
+        flex: 1;
+    }
+}

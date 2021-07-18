@@ -37,10 +37,12 @@ function App() {
     if (localStorage.getItem('user')) {
       setuser(JSON.parse(localStorage.getItem('user')));
     }
-    if (localStorage.getItem('userexist')) {
+    if (localStorage.getItem('userexist')==='true') {
       setuserexist(true)
+    } else{
+      setuserexist(false);
     }
-  }, [])
+  }, [localStorage.getItem('user')]);
   return (
     <>
       {
@@ -64,8 +66,8 @@ function App() {
                       <span style={{ fontWeight: '600', color: 'white' }}>{user.name}</span>
                       <button id="login_logout_tackle" onClick={() => {
                         {
+                          localStorage.setItem('userexist','false')
                           setuserexist(false)
-
                         };
                       }} style={{ marginLeft: '1rem' }} >Logout</button>
                     </div> :
@@ -110,7 +112,6 @@ function App() {
                   <Route exact path='/' component={Login} />
                   <Route exact path='/login' component={Login} />
                   <Route exact path='/register' component={Register} />
-                  <Route exact path='/' component={Login} />
                   <Route exact path='/Explore' component={Login} />
                   <Route exact path='/Opensource' component={Login} />
                   <Route exact path='/ai' component={Login} />

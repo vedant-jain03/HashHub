@@ -26,7 +26,7 @@ function Login() {
             setuser(result.user);
             setuserexist(true);
             localStorage.setItem('user', JSON.stringify(result.user));
-            localStorage.setItem('userexist', userexist);
+            localStorage.setItem('userexist', 'true');
             history.push('/')
         } else {
             const result = await res.json();

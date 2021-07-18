@@ -303,3 +303,11 @@
         word-wrap: break-word;
     }
 }
+#profile_readme {
+    margin-top: 0;
+    margin-bottom: -1rem;
+    padding: 2rem 0;
+    background: linear-gradient( 
+135deg
+ ,#71b7e6,#9b59b6);
+}

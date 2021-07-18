@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useContext } from "react"
 import "./Homepage.css"
 import bird1 from "../Homepage/Images/bird1.png";
 import bird2 from "../Homepage/Images/bird2.png";
@@ -13,23 +13,18 @@ import Explore from "../Explore/Explore"
 import { Link } from "react-router-dom";
 import "../Explore/Explore.css"
 import Opensource from "../Fields/Open-source/Opensource"
+import Login from "../Forms/Login"
+import { usercontext } from "../Contexts/usercontext";
 
 const Homepage = () => {
+    
+    const {user,setuser,userexist,setuserexist} = useContext(usercontext);
     const [offset,setOffset]=useState()
     const handleScroll=()=>setOffset(window.pageYOffset)
     window.addEventListener('scroll',handleScroll)
     return (
-        <div className="container" id="homepage">
-            <div className="header" style={{top:offset*0.25+'px'}}>
-                <a href="#" className="logo">Hash/Hub</a>
-                {/* <ul>
-                    <li><a href="#" className="active">Home</a></li>
-                    <li><a href="#About">About Us</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#field">Field</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul> */}
-            </div>
+        <>
+    <div className="container" id="homepage">
             <div className="landingpage">
                 <h2 id="text"  style={{top:20+ offset * -0.1+'%'}}>Find your right path with <span><br/>Hash/Hub</span></h2>
                 <img src={bird1} style={{top:offset* -1.5 + 'px',left:offset*2+'px'}} id="bird1" alt=""/>
@@ -43,10 +38,9 @@ const Homepage = () => {
             <Aboutus/>
             </div>
             <Field />
-            <TeamSection/>
-            
-            {/* <Contact /> */}
+            <Contact />
         </div>
+        </>
     )
 }
 export default Homepage;

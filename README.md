@@ -69,7 +69,7 @@ Hash/Hub is here to provide everything that revolves around your engineering deg
   <br />
 
 
-## Folder Structure 📒
+<!-- ## Folder Structure 📒
 
 * [Homepage](https://github.com/vedant-jain03/HashHub/tree/master/src/Components/Homepage)
 * [Explore](https://github.com/vedant-jain03/HashHub/tree/master/src/Components/Explore)
@@ -82,7 +82,8 @@ Hash/Hub is here to provide everything that revolves around your engineering deg
 * [Fields](https://github.com/vedant-jain03/HashHub/tree/master/src/Components/Fields)
 
   <br />
-
+ -->
+ 
 ## UI of the Website
 
 | ![Screenshot (16)](https://user-images.githubusercontent.com/76901313/124150039-cd644f80-daae-11eb-9e96-df76d0e8be82.png) | ![Screenshot (17)](https://user-images.githubusercontent.com/76901313/124161650-4a95c180-dabb-11eb-9f01-743c49b455c4.png) | ![Screenshot (18)](https://user-images.githubusercontent.com/76901313/124161654-4b2e5800-dabb-11eb-9cac-f7954a75155d.png) | ![Screenshot (19)](https://user-images.githubusercontent.com/76901313/124150276-0b617380-daaf-11eb-90e4-dbbc74115d62.png) | 

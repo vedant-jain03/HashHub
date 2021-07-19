@@ -1,3 +1,6 @@
 [submodule "hash_hub"]
 	path = hash_hub
 	url = https://github.com/vedant-jain03/Hashhub_backend.git
+[submodule "Hashhub_Backend"]
+	path = Hashhub_Backend
+	url = https://github.com/vedant-jain03/Hashhub_backend.git

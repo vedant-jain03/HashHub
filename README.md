@@ -14,7 +14,7 @@
 
 
 
-- **Frontend:** Html,Css, react
+- **Frontend:** React
 - **Backend:** Nodejs, express, MongoDB
 - **Version Control:** Git and GitHub
 - **Hosting:** gh-pages(frontend), heroku(backend)

@@ -9,10 +9,11 @@ import Login from "../Forms/Login"
 function Card({ src, content, heading, blogdetails, currentblog, setcurrentblog }) {
     const history = useHistory();
     const readblog = () => {
+        localStorage.setItem('currentblogdetails',JSON.stringify(blogdetails))
         setcurrentblog(blogdetails);
         history.push('/Blogpage');
-        console.log(blogdetails);
     }
+    
     return (
         <>
             <div className="blog-card">
@@ -85,7 +86,7 @@ function Homepage() {
                     <h1>{landingpage.heading}</h1>
                     <i><h2>- {landingpage.name === '' ? 'User' : landingpage.name}</h2></i>
 
-                    <p style={{ maxHeight: '40%', overflow: 'hidden' }}>{landingpage.content}</p>
+                    <p>{landingpage.content}</p>
                     <button onClick={handlesubmit} >Read More</button>
                 </div>
                 <div className="right"></div>

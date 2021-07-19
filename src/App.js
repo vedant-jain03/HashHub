@@ -9,6 +9,7 @@ import ExploreIcon from '@material-ui/icons/Explore';
 import AccountBalanceWalletIcon from '@material-ui/icons/AccountBalanceWallet';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import DehazeIcon from '@material-ui/icons/Dehaze';
 
 const Homepage = lazy(() => import("./Components/Homepage/Homepage"));
 const Explore = lazy(() => import("./Components/Explore/Explore"));
@@ -51,7 +52,10 @@ function App() {
 
             <Suspense fallback={<Preloader />}>
               <div id="main-nav-bar">
+                <div>
                 <Link to="">Hash/Hub</Link>
+                </div>
+                
                 <nav id="nav-menu">
                   <Link className={currentactivePage === "home" ? 'active' : ''} onClick={() => setcurrentactivePage('home')} to="/"> <HomeIcon style={{ marginRight: '5px' }} /> Home</Link>
                   <Link className={currentactivePage === "Explore" ? 'active' : ''} onClick={() => setcurrentactivePage('Explore')} to="/Explore"> <ExploreIcon style={{ marginRight: '5px' }} /> Explore</Link>
@@ -60,7 +64,7 @@ function App() {
                 </nav>
                 {
                   userexist === true ?
-                    <div style={{ display: 'flex', alignItems: 'center' }} onClick={() => history.push('/userprofile')} >
+                    <div style={{ display: 'flex', alignItems: 'center' }} onClick={() => history.push('/userprofile')} className="user" >
                       <AccountCircleIcon style={{ cursor: 'pointer', color: 'white' }} />
 
                       <span style={{ fontWeight: '600', color: 'white' }}>{user.name}</span>
@@ -75,7 +79,6 @@ function App() {
                       { history.push('/') };
                     }}>Login</button>
                 }
-
               </div>
               <Router>
                 <Switch>

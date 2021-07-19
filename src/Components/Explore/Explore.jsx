@@ -31,11 +31,11 @@ const Explore = () => {
                 <img src={background} alt="" id="bgimage" />
                 <div className="content">
                     <h2>Welcome to</h2>
-                    <h1><Link to="/" style={{textDecoration:'none'}}> <span>Hash/Hub </span></Link>Explore</h1>
+                    <h1><Link to="/" style={{ textDecoration: 'none' }}> <span>Hash/Hub </span></Link>Explore</h1>
                     <p>This is explore section where you will get lot of field.</p>
                 </div>
             </div>
-            
+
             <div className="field-section tool-section" >
                 <div className="content" data-aos="fade-right">
                     <h1>Tools</h1>
@@ -53,7 +53,7 @@ const Explore = () => {
                         outsideChevron
                         chevronWidth={chevronWidth}
                     >
-                        
+
                         <div className="card">
                             <div className="card-content">
                                 <h2 className="card-title">Resume Maker</h2>
@@ -68,7 +68,7 @@ const Explore = () => {
                                 <Link to="/Smart_pdf" className="button">Learn More</Link>
                             </div>
                         </div>
-                        
+
                         <div className="card">
                             <div className="card-content">
                                 <h2 className="card-title">Repository Readme.md Generator</h2>
@@ -90,14 +90,6 @@ const Explore = () => {
                                 <Link to="/certificate_generator" className="button">Learn More</Link>
                             </div>
                         </div>
-                        <div className="card">
-                            <div className="card-content">
-                                <h2 className="card-title">Web Compiler</h2>
-                                <p className="card-body">This is a tool you can use to structure design and preview the design simultanously. You can type HTML,CSS and JS here.</p>
-                                <a href="https://yashikajotwani12.github.io/Web-Compiler/" className="button">Use Tool</a>
-                            </div>
-                        </div>
-                        
                     </ItemsCarousel>
                 </div>
             </div>
@@ -107,93 +99,55 @@ const Explore = () => {
                     <h1 data-aos="fade-right">Fields</h1>
                     <p data-aos="fade-right">This section will provide you with Respective Field's Roadmaps,Resources and Many informative Things. Just Check it Out!!</p>
                 </div>
-                <div style={{ padding: `0 ${chevronWidth}px` ,    marginTop: '1rem',}}  className="cardcontainermain" >
-                
-                <ItemsCarousel
-                    requestToChangeActive={setActiveItemIndex}
-                    activeItemIndex={activeItemIndex}
-                    numberOfCards={3}
-                    gutter={15}
-                    leftChevron={<button style={{fontSize:'2rem',padding:'40px 10px',border:'none',background:'rgb(40 44 52 / 47%)',marginLeft:'-2px' , color:'white', cursor:'pointer'}}>{'<'}</button>}
-                    rightChevron={<button style={{fontSize:'2rem',padding:'40px 10px',border:'none',background:'rgb(40 44 52 / 47%)',color:'white', cursor:'pointer', marginRight:'0'}}>{'>'}</button>}
-                    outsideChevron
-                    chevronWidth={chevronWidth}
-                   
-                >
+                <div style={{ padding: `0 ${chevronWidth}px`, marginTop: '1rem', }} className="cardcontainermain" >
 
-                    <div className="card">
-                        <div className="card-content">
+                    <ItemsCarousel
+                        requestToChangeActive={setActiveItemIndex}
+                        activeItemIndex={activeItemIndex}
+                        numberOfCards={3}
+                        gutter={15}
+                        leftChevron={<button style={{ fontSize: '2rem', padding: '40px 10px', border: 'none', background: 'rgb(40 44 52 / 47%)', marginLeft: '-2px', color: 'white', cursor: 'pointer' }}>{'<'}</button>}
+                        rightChevron={<button style={{ fontSize: '2rem', padding: '40px 10px', border: 'none', background: 'rgb(40 44 52 / 47%)', color: 'white', cursor: 'pointer', marginRight: '0' }}>{'>'}</button>}
+                        outsideChevron
+                        chevronWidth={chevronWidth}
 
-                            <h2 className="card-title">Open-Source</h2>
-                            <p className="card-body">Open-source code is extremely well-adapted to service-oriented architecture. Want to explore more then have a look and deep dive into this endless ocean.</p>
-                            <Link to="/Opensource" className="button">Learn More</Link>
-                        </div>
-                    </div>
-                    {/* <div className="card">
-                        <div className="card-content">
+                    >
 
-                            <h2 className="card-title">Web Development</h2>
-                            <p className="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla ipsam ex! Tempora totam, non quos tempore facere ullam neque.</p>
-                            <a href="#" className="button" onClick={() => {
-                                alert('Work In Progress!');
-                            }}>Learn More</a>
-                        </div>
-                    </div> */}
-                    {/* <div className="card">
-                        <div className="card-content">
-
-                            <h2 className="card-title">App Development</h2>
-                            <p className="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla ipsam ex! Tempora totam, non quos tempore facere ullam neque.</p>
-                            <a href="#" className="button" onClick={() => {
-                                alert('Work In Progress!');
-                            }}>Learn More</a>
-                        </div>
-                    </div> */}
-                    <div className="card">
-                        <div className="card-content">
-
-                            <h2 className="card-title">Machine Learning</h2>
-                            <p className="card-body">The field of Machine Learning seeks to answer the question ‘How can we build computer systems that automatically improve with experience,.....</p>
-                            <Link to="/ml" className="button">Learn More</Link>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-content">
-
-                            <h2 className="card-title">AI</h2>
-                            <p className="card-body">Artificial Intelligence (AI) involves using computers to do things that traditionally require human intelligence. This means creating algorithms to classify, analyze, and draw predictions from data.</p>
-                            <Link to="/Ai" className="button">Learn More</Link>
-                        </div>
-                    </div>
-                    {/* <div className="card">
+                        <div className="card">
                             <div className="card-content">
 
-                                <h2 className="card-title">Competitive Programming</h2>
-                                <p className="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla ipsam ex! Tempora totam, non quos tempore facere ullam neque.</p>
-                                <a href="#" className="button" onClick={() => {
-                                    alert('Work In Progress!');
-                                }}>Learn More</a>
+                                <h2 className="card-title">Open-Source</h2>
+                                <p className="card-body">Open-source code is extremely well-adapted to service-oriented architecture. Want to explore more then have a look and deep dive into this endless ocean.</p>
+                                <Link to="/Opensource" className="button">Learn More</Link>
                             </div>
-                    </div> */}
-                        {/* <div className="card">
+                        </div>
+                        <div className="card">
                             <div className="card-content">
-                                <h2 className="card-title">Data Structures and Algorithms</h2>
-                                <p className="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nulla ipsam ex! Tempora totam, non quos tempore facere ullam neque.</p>
-                                <Link to="/Dsa" className="button">Learn More</Link>
+
+                                <h2 className="card-title">Machine Learning</h2>
+                                <p className="card-body">The field of Machine Learning seeks to answer the question ‘How can we build computer systems that automatically improve with experience,.....</p>
+                                <Link to="/ml" className="button">Learn More</Link>
                             </div>
-                        </div> */}
-                </ItemsCarousel>
-                {/* </div> */}
+                        </div>
+                        <div className="card">
+                            <div className="card-content">
+
+                                <h2 className="card-title">AI</h2>
+                                <p className="card-body">Artificial Intelligence (AI) involves using computers to do things that traditionally require human intelligence. This means creating algorithms to classify, analyze, and draw predictions from data.</p>
+                                <Link to="/Ai" className="button">Learn More</Link>
+                            </div>
+                        </div>
+                    </ItemsCarousel>
+                </div>
             </div>
-            </div>
-            
+
             <div className="footer" id="explore-footer">
-            <img src={group26} alt=""/>
-            <div>
-                <h1>Hash/Hub</h1>
-                <h3>Copyright © 2021 — 2023</h3>
-            </div>
-            <img src={group27} alt=""/>
+                <img src={group26} alt="" />
+                <div>
+                    <h1>Hash/Hub</h1>
+                    <h3>Copyright © 2021 — 2023</h3>
+                </div>
+                <img src={group27} alt="" />
             </div>
         </div>
     )

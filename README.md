@@ -39,7 +39,7 @@
 
 ## Overview 🔨
 
-Hash/Hub is here to provide everything that revolves around your engineering degree, we have so many different free Tools to make your Profile more Attractive and Professional. We have Fields section where you will find out resourses, roadmaps, experiences, programs, competetions, tips and tricks to not just master your degree but also explore and enjoy every aspect of being an engineer with a full pack of knowledges.
+Hash/Hub is initiative to provide students with everything that revolves around engineering degree, we have so many different free Tools to make thier Profile more Attractive and Professional. We have Fields section where they will find out resourses, roadmaps, experiences, programs, competetions, tips and tricks to not just master thier degree but also explore and enjoy every aspect of being an engineer with a full pack of knowledges. We have Blogs section where students can share their journey, achievements and tutorials, and can read the blogs for absolutley free.
 
  <br />
 
@@ -83,7 +83,7 @@ Hash/Hub is here to provide everything that revolves around your engineering deg
 
   <br />
  -->
- 
+<!--  
 ## UI of the Website
 
 | ![Screenshot (16)](https://user-images.githubusercontent.com/76901313/124150039-cd644f80-daae-11eb-9e96-df76d0e8be82.png) | ![Screenshot (17)](https://user-images.githubusercontent.com/76901313/124161650-4a95c180-dabb-11eb-9f01-743c49b455c4.png) | ![Screenshot (18)](https://user-images.githubusercontent.com/76901313/124161654-4b2e5800-dabb-11eb-9cac-f7954a75155d.png) | ![Screenshot (19)](https://user-images.githubusercontent.com/76901313/124150276-0b617380-daaf-11eb-90e4-dbbc74115d62.png) | 
@@ -91,7 +91,7 @@ Hash/Hub is here to provide everything that revolves around your engineering deg
 | Home Page | Explore Page | Tools | Resume Maker |
 | ![Screenshot (20)](https://user-images.githubusercontent.com/76901313/124161660-4d90b200-dabb-11eb-8426-3314fb25eb65.png) | ![Screenshot (21)](https://user-images.githubusercontent.com/76901313/124161675-508ba280-dabb-11eb-9a4f-2151a6d477d4.png) | ![Screenshot (22)](https://user-images.githubusercontent.com/76901313/124161680-51bccf80-dabb-11eb-8596-ec940feb3e27.png) | ![Screenshot (23)](https://user-images.githubusercontent.com/76901313/124161689-541f2980-dabb-11eb-80c1-c9982dc76b85.png) |
 | Smart PDF | Github Markdown Generator | Github Profile Readme Generator | Certificate Generator |
-
+ -->
 <br/>
 
 ## Setup Steps

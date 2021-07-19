@@ -4,13 +4,15 @@
 
 <div align="center">
 
-![Badge](https://img.shields.io/badge/Tech_Stack-React-yellow) ![Badge](https://img.shields.io/badge/Version-1.2-green) ![Badge](https://img.shields.io/badge/License-Apache_2.0-blue) ![Badge](https://img.shields.io/badge/Type-OpenSource-orange) ![Badge](https://img.shields.io/badge/For-Students-red) 
+![Badge](https://img.shields.io/badge/Tech_Stack-MERN-yellow) ![Badge](https://img.shields.io/badge/Version-1.2-green) ![Badge](https://img.shields.io/badge/License-Apache_2.0-blue) ![Badge](https://img.shields.io/badge/Type-OpenSource-orange) ![Badge](https://img.shields.io/badge/For-Students-red) 
 
 </div>
 
 <br />
 
-## Tech Stack : <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/react%20-%2314354C.svg?&style=for-the-badge&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/markdown-%23000000.svg?&style=for-the-badge&logo=markdown&logoColor=white"/> <img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/git%20-%23121011.svg?&style=for-the-badge&logo=git&logoColor=green"/> <img src="https://img.shields.io/badge/vscode%20-%23121011.svg?&style=for-the-badge&logo=vs-code&logoColor=green"/> 
+## Tech Stack : <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/react%20-%2314354C.svg?&style=for-the-badge&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/markdown-%23000000.svg?&style=for-the-badge&logo=markdown&logoColor=white"/> <img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/git%20-%23121011.svg?&style=for-the-badge&logo=git&logoColor=green"/> <img src="https://img.shields.io/badge/express%20-%23E34F26.svg?&style=for-the-badge&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/mongo%20-%231572B6.svg?&style=for-the-badge&logo=mongodb&logoColor=green"/> <img src="https://img.shields.io/badge/nodejs%20-%2314354C.svg?&style=for-the-badge&logo=nodejs&logoColor=white"/> 
+
+
 
 - **Frontend:** Html,Css, react
 - **Backend:** Nodejs, express, MongoDB
@@ -44,7 +46,7 @@ Hash/Hub is here to provide everything that revolves around your engineering deg
  <br />
 
 
-## Technology & Dependencies Used 🖥️
+## Technology & Dependencies Used (Front-end) 🖥️
 
 - [x]  React
 - [x]  Material-UI (For Icons)
@@ -55,6 +57,19 @@ Hash/Hub is here to provide everything that revolves around your engineering deg
 
 
   <br />
+
+## Technology & Dependencies Used (Back-end) 🖥️
+
+- [x]  bcryptjs
+- [x]  body-parser 
+- [x]  cors 
+- [x]  express
+- [x]  dotenv 
+- [x]  mongoose 
+- [x]  nodemon 
+
+  <br />
+
 
 ## Folder Structure 📒
 

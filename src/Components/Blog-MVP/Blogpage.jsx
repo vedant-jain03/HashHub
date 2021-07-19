@@ -9,11 +9,16 @@ import axios from "axios";
 import marked from "marked"
 
 function Blogpage() {
+    
     const history = useHistory();
     const { currentindexblog, setcurrentblog } = useContext(currentBlog);
     const [likes, setlikes] = useState(currentindexblog.likes);
     const [dislikes, setdislikes] = useState(currentindexblog.dislikes);
-
+    useEffect(()=>{
+        if(localStorage.getItem('currentblogdetails')){
+            setcurrentblog(JSON.parse(localStorage.getItem('currentblogdetails')));
+        }
+    },[localStorage.getItem('currentblogdetails')])
     const likethispost = async (e) => {
         e.preventDefault();
         const currlikes = await currentindexblog.likes + 1;
@@ -22,6 +27,7 @@ function Blogpage() {
         const result = await axios.patch('https://hashhub-backend.herokuapp.com/likethisBlog', { _id, likes });
         console.log(result);
     }
+    
     return (
         <div id="blogpage">
             <div className="header">

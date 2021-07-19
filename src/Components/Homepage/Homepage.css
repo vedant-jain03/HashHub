@@ -165,3 +165,43 @@ html{
         margin-top: 0rem;
     }
   }
+  
+#homepage{
+    background: white;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:800px){
+    #homepage .landingpage {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        overflow: hidden;
+        background: rgb(255 255 255);
+    }
+    #homepage .landingpage #text span {
+        font-size: 4rem;
+        letter-spacing: 2px;
+        font-weight: 800;
+        margin-bottom: 5rem;
+    }
+    #homepage .Section {
+        position: relative;
+        background: #0074A8;
+        width: 100%;
+        height: 100vh;
+        padding: 7rem 0;
+    }
+    #homepage #contact {
+        height: 100vh;
+        width: 100%;
+        background: #0074A8;
+        color: white;
+        margin-bottom: 2rem;
+    }
+}

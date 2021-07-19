@@ -58,3 +58,34 @@ margin-top: 4rem;
         width: 100%;
     }
 }
+@media only screen and (max-width: 1059px){
+    #About .content h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    #About .content p {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        line-height: 1.7;
+        font-weight: 500;
+    }
+    #About .primary {
+        background-color: white;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 1rem 3rem;
+        margin-top: 2rem;
+    }    
+    #About .g23 {
+        left: 0rem;
+        width: 13rem;
+    }
+    #About .g2 {
+        left: 53rem;
+        top: 21rem;
+        width: 14rem;
+    }
+}

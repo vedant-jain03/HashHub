@@ -221,3 +221,75 @@
     color: #42b983;
     font-weight: 500;
 }
+@media only screen and (max-width:800px){
+    #bloginput {
+        color: #8f9bad;
+        background-color: #fff;
+        font-size: 15px;
+        line-height: 1.7;
+        overflow-x: hidden;
+        padding: 1rem 1rem;
+        min-height: 100vh;
+    }
+    #bloginput .main .preview p h1, h2 {
+        color: #42b983;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    #bloginput .main .input .title {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border: none;
+        font-size: 15px;
+        font-weight: bold;
+        border: 1px solid #42b983;
+        border-radius: 0;
+        outline: none;
+        color: #42b983;
+    }
+    #bloginput .main .input input {
+        margin-bottom: 1rem;
+        padding: 15px;
+        font-size: 10px;
+        font-weight: bold;
+        border: 1px solid #42b983;
+        outline: none;
+        color: #42b983;
+        width: 90%;
+    }
+    #bloginput .main .input button {
+        margin-bottom: 0;
+        margin-right: 0;
+        outline: none;
+        width: 5rem;
+        margin-left: 1rem;
+        padding: 7px 20px;
+        border: 2px solid #42b983;
+        background: none;
+        font-size: 10px;
+        font-weight: 600;
+        color: #42b983;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 0;
+        background: white;
+    }
+    #bloginput .outputtags span {
+        background: #4caf50b5;
+        padding: 0px 10px;
+        border: 1px solid green;
+        border-radius: 25px;
+        font-weight: 100;
+        margin-right: 1rem;
+        color: white;
+        font-weight: 600;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    #bloginput .main .preview img {
+        border-radius: 10px;
+        max-width: 100%;
+        margin-top: 1rem;
+        min-width: 100%;
+    }
+}

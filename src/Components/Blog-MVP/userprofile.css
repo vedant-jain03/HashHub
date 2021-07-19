@@ -100,3 +100,58 @@
     color: white;
     background-color: red;
 }
+
+@media only screen and (max-width:800px){
+    #user-profile {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 5rem;
+    }
+    #user-profile .user-card {
+        padding: 1rem;
+        background: rgba(0,0,0,0.1);
+        border: 1px solid #42b993;
+        border-radius: 5px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        word-break: break-all;
+    }
+    #user-profile .user-card div > h4 {
+        font-size: 10px;
+        color: gray;
+        font-weight: 400;
+        margin: 0;
+    }
+    #user-profile .user-card div > h3 {
+        margin: 0;
+        font-size: 10px;
+    }
+    #user-profile .user-card .MuiSvgIcon-root {
+        font-size: 6rem;
+    }
+    #user-profile .users-blogs .blog-card {
+        width: 30ch;
+        overflow: hidden;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        border-radius: 10px;
+        border: 2px solid;
+        margin: 1rem;
+    }
+    #user-profile .users-blogs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* width: 100%; */
+        align-items: center;
+        padding: 1rem 5rem;
+        margin-bottom: 3rem;
+    }
+}

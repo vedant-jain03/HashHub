@@ -430,62 +430,6 @@ padding: 4rem;
     #explore-footer {
         margin-bottom: 0rem;
     }
-    .footer img {
-        width: 8rem;
-        margin-top: 14rem;
-        height: 7rem;
-    }
-    .footer > div h1 {
-        font-size: 2rem;
-        margin-top: 13rem;
-    }
-    .footer div{
-        font-size: 10px;
-    }
-    .header {
-        display: none;
-    }
-    .landingpage {
-        position: relative;
-        width: 101vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 1;
-        overflow: hidden;
-        background: rgb(255 255 255);
-    }
-    .Section {
-        position: relative;
-        background: #0074A8;
-        width: 101%;
-        height: 100vh;
-        padding: 7rem 0;
-        padding: 0;
-    }
-    #About .content {
-        position: absolute;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        z-index: 1;
-        padding: 3rem;
-    }
-    #About .g2 {
-        left: 14rem;
-        top: 27rem;
-        /* display: none; */
-        width: 12rem;
-    }
-    #About .g23 {
-        left: 0rem;
-        width: 9rem;
-        /* display: none; */
-    }
     #field {
         background: #0074A8;
         height: 126vh;
@@ -496,7 +440,7 @@ padding: 4rem;
         margin-top: 0rem;
         /* display: none; */
     }
-    /* #field div{
+    #field div{
         padding: 0px 40px;
     height: 60vh;
     background: rgba(0, 0, 0, 0.3);
@@ -519,8 +463,8 @@ padding: 4rem;
         height: 320px;
         transition: transform 500ms ease;
         margin: 1rem 0;
-    } */
-    #team {
+    }
+    /* #team {
         background: #0074A8;
         height: auto;
         width: 101vw;
@@ -561,10 +505,10 @@ padding: 4rem;
         background: white;
         max-width: 100vw;
         overflow: hidden;
-    }
+    } */
     .card {
         color: var(--clr-neautral-100);
-        /* font-family: sans-serif; */
+        font-family: sans-serif;
         background-image: url(https://image.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg);
         background-size: cover;
         padding: 4rem 0 0;
@@ -608,13 +552,12 @@ padding: 4rem;
     
     .homepagecards .grBOFc button{
         display: none;
-    }
+    } 
 }
+
 #explore .field-section{
     background: #00134e;
 }
 #explore .tool-section {
-    background: linear-gradient( 
-180deg
- , black, #00134e);
+    background: linear-gradient(180deg, black, #00134e);
 }

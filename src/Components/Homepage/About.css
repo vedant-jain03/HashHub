@@ -48,16 +48,7 @@ padding: 1rem 5rem;
 margin-top: 4rem;
 }
 
-@media only screen and (max-width: 800px){
-    
-    #About .g2 {
-        left: 42rem;
-        top: 23rem;
-    }
-    #About .content{
-        width: 100%;
-    }
-}
+
 @media only screen and (max-width: 1059px){
     #About .content h2 {
         font-size: 3rem;
@@ -87,5 +78,34 @@ margin-top: 4rem;
         left: 53rem;
         top: 21rem;
         width: 14rem;
+    }
+}
+@media only screen and (max-width: 800px){
+
+    #About .g2 {
+        left: 42rem;
+        top: 23rem;
+    }
+    #About .content {
+        position: absolute;
+        color: white;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        z-index: 10;
+        width: 100%;
+    }
+    #About .g23 {
+        left: 0rem;
+        width: 10rem;
+        top: -6rem;
+    }
+    #homepage #About .g2{
+        left: 15rem;
+        width: 10rem;
+        display: none;
     }
 }

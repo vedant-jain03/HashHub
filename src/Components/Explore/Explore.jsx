@@ -99,7 +99,7 @@ const Explore = () => {
                     <h1 data-aos="fade-right">Fields</h1>
                     <p data-aos="fade-right">This section will provide you with Respective Field's Roadmaps,Resources and Many informative Things. Just Check it Out!!</p>
                 </div>
-                <div style={{ padding: `0 ${chevronWidth}px`, marginTop: '1rem', }} className="cardcontainermain" >
+                <div style={{ padding: `2rem 1rem`, marginTop: '1rem', }} className="cardcontainermain" >
 
                     <ItemsCarousel
                         requestToChangeActive={setActiveItemIndex}

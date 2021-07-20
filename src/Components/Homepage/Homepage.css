@@ -171,7 +171,15 @@ html{
     max-width: 100vw;
     overflow: hidden;
 }
-
+.footer {
+    background: #0074A8;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-top: 7rem;
+    display: none;
+}
 @media only screen and (max-width:800px){
     #homepage .landingpage {
         position: relative;

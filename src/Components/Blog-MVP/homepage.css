@@ -159,18 +159,20 @@
     height: 14rem;
     overflow: hidden;
 }
+
 @media only screen and (max-width:800px){
     #blog-Mainpage .landingpage {
         width: 80%;
         overflow: hidden;
-        max-height: 100%;
-        margin: 3rem 0;
+        /* margin: 3rem 0; */
         display: flex;
         border-radius: 10px;
         box-shadow: 0 0 5px 5px rgb(0 0 0 / 10%);
         margin: 3rem auto;
         flex-direction: column;
         padding: 1rem;
+        height: 100%;
+        justify-content: space-evenly;
     }
     #blog-Mainpage .landingpage img {
         width: 100%;
@@ -200,12 +202,20 @@
     #blog-Mainpage .moreblogs .blog-card {
         width: 35ch;
         overflow: hidden;
-        height: 60vh;
+        height: auto;
         border: 2px solid #42b983;
         padding: 1rem;
         border-radius: 10px;
         margin-right: 0;
         margin-bottom: 2rem;
         background-color: #e9ffea;
+    }
+    #blog-Mainpage .moreblogs .blog-card img {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
+    #blog-Mainpage .moreblogs .blog-card .top {
+        height: auto;
     }
 }

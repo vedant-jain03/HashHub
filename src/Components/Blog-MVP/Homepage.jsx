@@ -89,7 +89,6 @@ function Homepage() {
                     <p>{landingpage.content}</p>
                     <button onClick={handlesubmit} >Read More</button>
                 </div>
-                <div className="right"></div>
             </div>
             <div className="other-blogs">
                 <h2><center>More Blogs</center></h2>

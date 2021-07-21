@@ -20,8 +20,8 @@
     "static/js/7.3d096fd9.chunk.js": "/HashHub/static/js/7.3d096fd9.chunk.js",
     "static/js/7.3d096fd9.chunk.js.map": "/HashHub/static/js/7.3d096fd9.chunk.js.map",
     "main.css": "/HashHub/static/css/main.1ef96ada.chunk.css",
-    "main.js": "/HashHub/static/js/main.c4a7cae6.chunk.js",
-    "main.js.map": "/HashHub/static/js/main.c4a7cae6.chunk.js.map",
+    "main.js": "/HashHub/static/js/main.a8160c25.chunk.js",
+    "main.js.map": "/HashHub/static/js/main.a8160c25.chunk.js.map",
     "runtime-main.js": "/HashHub/static/js/runtime-main.e2f8686c.js",
     "runtime-main.js.map": "/HashHub/static/js/runtime-main.e2f8686c.js.map",
     "static/js/10.caa7926d.chunk.js": "/HashHub/static/js/10.caa7926d.chunk.js",
@@ -100,6 +100,7 @@
     "static/media/blank_page.231f45d2.jfif": "/HashHub/static/media/blank_page.231f45d2.jfif",
     "static/media/forest.238eb9eb.png": "/HashHub/static/media/forest.238eb9eb.png",
     "static/media/lined_pages.89fa7386.jpg": "/HashHub/static/media/lined_pages.89fa7386.jpg",
+    "static/media/logo.f79833e3.png": "/HashHub/static/media/logo.f79833e3.png",
     "static/media/rocks.0535a43a.png": "/HashHub/static/media/rocks.0535a43a.png",
     "static/media/water.706f9c68.png": "/HashHub/static/media/water.706f9c68.png"
   },
@@ -107,6 +108,6 @@
     "static/js/runtime-main.e2f8686c.js",
     "static/js/10.caa7926d.chunk.js",
     "static/css/main.1ef96ada.chunk.css",
-    "static/js/main.c4a7cae6.chunk.js"
+    "static/js/main.a8160c25.chunk.js"
   ]
 }

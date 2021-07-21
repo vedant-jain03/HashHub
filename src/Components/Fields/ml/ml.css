@@ -5,7 +5,8 @@
 }
 #ml{
     background: linear-gradient(to right, #185a9d, #43cea2);
-
+    max-width: 100vw;
+    overflow: hidden;
 }
 .Landingpage{
     display: flex;

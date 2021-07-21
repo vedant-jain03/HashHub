@@ -222,3 +222,5 @@ git push -u origin <your_branch_name>
 
 [![Uses Git](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/vedant-jain03/HashHub) [![Uses HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/vedant-jain03/HashHub) [![Uses CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/vedant-jain03/HashHub) 
 [![Built with love](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/vedant-jain03/HashHub) 
+
+<div align="center"><img width="250px" src="https://user-images.githubusercontent.com/76901313/126438255-c65885d0-e4bd-4944-8085-a15ef6e26f3a.png" ></img></div>

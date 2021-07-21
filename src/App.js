@@ -10,6 +10,7 @@ import AccountBalanceWalletIcon from '@material-ui/icons/AccountBalanceWallet';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import DehazeIcon from '@material-ui/icons/Dehaze';
+import logo from "../src/logo.png"
 
 const Homepage = lazy(() => import("./Components/Homepage/Homepage"));
 const Explore = lazy(() => import("./Components/Explore/Explore"));
@@ -52,8 +53,9 @@ function App() {
 
             <Suspense fallback={<Preloader />}>
               <div id="main-nav-bar">
-                <div>
-                <Link to="">Hash/Hub</Link>
+                <div style={{display:'flex',alignItems:'center'}}>
+                  <img style={{maxWidth:'3rem'}} src={logo}></img>
+                  <Link to="/">Hash/Hub</Link>
                 </div>
                 
                 <nav id="nav-menu">

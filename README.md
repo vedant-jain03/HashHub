@@ -1,3 +1,5 @@
+<div align="center"><img width="350px" src="https://user-images.githubusercontent.com/76901313/126438255-c65885d0-e4bd-4944-8085-a15ef6e26f3a.png" ></img></div>
+
 <h1 align="center">
             🖥️ Hash/Hub 🖥️
 </h1>
@@ -184,6 +186,7 @@ git push -u origin <your_branch_name>
 **15** Voila :exclamation: You have made a PR to the awesome-javascript-projects :boom: . Wait for your submission to be accepted and your PR to be merged.
 
 <br />
+
 
 
 [![Uses Git](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/vedant-jain03/HashHub) [![Uses HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/vedant-jain03/HashHub) [![Uses CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/vedant-jain03/HashHub) 

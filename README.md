@@ -1,3 +1,5 @@
+<div align="center"><img width="350px" src="https://user-images.githubusercontent.com/76901313/126438255-c65885d0-e4bd-4944-8085-a15ef6e26f3a.png" ></img></div>
+
 <h1 align="center">
             🖥️ Hash/Hub 🖥️
 </h1>
@@ -52,7 +54,8 @@ Hash/Hub is initiative to provide students with everything that revolves around 
 - [x]  carousel (For Card Slider)
 - [x]  gh-pages (To host the React App)
 - [x]  React-to-Print (To Convert my HTML to pdf and print)
-
+- [x]  Axios (For API calls)
+- [x]  Marked (To convert string into .md file)
 
   <br />
 
@@ -184,3 +187,7 @@ git push -u origin <your_branch_name>
 
 <br />
 
+
+
+[![Uses Git](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/vedant-jain03/HashHub) [![Uses HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/vedant-jain03/HashHub) [![Uses CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/vedant-jain03/HashHub) 
+[![Built with love](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/vedant-jain03/HashHub) 

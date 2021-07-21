@@ -45,6 +45,20 @@ Hash/Hub is initiative to provide students with everything that revolves around 
 
  <br />
 
+## Key Features
+
+- Blogs
+- Free Tools
+  - Resume Maker
+  - Smart pdf
+  - Github Profile Readme Generator
+  - Github Repository Readme Generator
+  - Certificate Generator
+- Fields
+  - Open Source
+  - AI
+  - ML
+ 
 
 ## Technology & Dependencies Used (Front-end) 🖥️
 

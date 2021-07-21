@@ -130,17 +130,17 @@ $ npm run start
 ### Backend
 - Install Submodules
 ```
-git submodule update --init
+$ git submodule update --init
 ```
 
 - Go the directory
 ```
-cd Hashhub_Backend
+$ cd Hashhub_Backend
 ```
 
 - Start server (using nodemon)
 ```
-nodemon start
+$ nodemon start
 ```
 
   <br />

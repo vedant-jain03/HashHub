@@ -99,6 +99,7 @@ Hash/Hub is initiative to provide students with everything that revolves around 
 
 ## Setup Steps
   
+### Frontend
 - Go to directory
 ```
 $ cd HashHub
@@ -111,7 +112,23 @@ $ npm install
 ```
 $ npm run start
 ```
-  
+
+### Backend
+- Install Submodules
+```
+git submodule update --init
+```
+
+- Go the directory
+```
+cd Hashhub_Backend
+```
+
+- Start server (using nodemon)
+```
+nodemon start
+```
+
   <br />
   <br />
   

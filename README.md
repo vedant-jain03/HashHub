@@ -43,6 +43,8 @@
 
 Hash/Hub is initiative to provide students with everything that revolves around engineering degree, we have so many different free Tools to make thier Profile more Attractive and Professional. We have Fields section where they will find out resourses, roadmaps, experiences, programs, competetions, tips and tricks to not just master thier degree but also explore and enjoy every aspect of being an engineer with a full pack of knowledges. We have Blogs section where students can share their journey, achievements and tutorials, and can read the blogs for absolutley free.
 
+[Sample Video of Project Overview](https://youtu.be/LodwdxG4aG8)
+
  <br />
 
 ## Key Features
